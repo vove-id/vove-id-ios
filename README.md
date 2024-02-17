@@ -9,25 +9,19 @@ VoveSDK is a comprehensive solution designed to facilitate ID verification and K
 Getting Started
 ---------------
 
-### Requirements
-
--   iOS 11.0 or later.
--   Xcode 12.0 or later.
--   Swift 5.0 or later.
-
 ### Installation
 
 VoveSDK is available through [CocoaPods](https://cocoapods.org/). To integrate VoveSDK into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
-rubyCopy code
-
-`pod 'VoveSDK'`
+```ruby
+pod 'VoveSDK'
+```
 
 Then, run the following command in your terminal:
 
-bashCopy code
-
-`pod install`
+```bash
+pod install
+```
 
 ### Initialization
 
@@ -35,9 +29,9 @@ To initialize VoveSDK in your application, you should perform the initialization
 
 #### AppDelegate.swift
 
-swiftCopy code
+```swift
 
-`import UIKit
+import UIKit
 import VoveSDK
 
 @UIApplicationMain
@@ -49,15 +43,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         return true
     }
-}`
+}
+```
 
 #### SceneDelegate.swift
 
 For projects using SceneDelegate:
 
-swiftCopy code
-
-`import UIKit
+```swift
+import UIKit
 import VoveSDK
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -66,16 +60,17 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Initialize VoveSDK
         Vove.initialize()
     }
-}`
+}
+```
 
 Starting an ID Verification Session
 -----------------------------------
 
 To start an ID verification session, you need a session token that should be generated from your backend by interacting with VoveSDK's APIs. Once you have the session token, you can start the verification session as follows:
 
-swiftCopy code
+```swift
 
-`Vove.startIDVerificationSession(sessionToken: "your_session_token_here") { result in
+Vove.startIDVerificationSession(sessionToken: "your_session_token_here") { result in
     switch result {
     case .success:
         print("Verification successful")
@@ -84,7 +79,8 @@ swiftCopy code
     case .failure(let error):
         print("Verification failed: \(error.localizedDescription)")
     }
-}`
+}
+```
 
 Handling Verification Status
 ----------------------------

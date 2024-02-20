@@ -1804,97 +1804,97 @@
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
       "kind": "StringLiteral",
       "offset": 1714,
-      "length": 16,
-      "value": "\"FaceTec_cancel\""
+      "length": 13,
+      "value": "\"vove_cancel\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
       "kind": "StringLiteral",
-      "offset": 1747,
+      "offset": 1744,
       "length": 5,
       "value": "\"png\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
       "kind": "StringLiteral",
-      "offset": 2069,
-      "length": 16,
-      "value": "\"FaceTec_camera\""
+      "offset": 2066,
+      "length": 13,
+      "value": "\"vove_camera\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
       "kind": "StringLiteral",
-      "offset": 2102,
+      "offset": 2096,
       "length": 5,
       "value": "\"png\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
       "kind": "StringLiteral",
-      "offset": 2362,
+      "offset": 2356,
+      "length": 12,
+      "value": "\"vove_ideal\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 2385,
+      "length": 5,
+      "value": "\"png\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 2636,
+      "length": 13,
+      "value": "\"vove_review\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 2666,
+      "length": 5,
+      "value": "\"png\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 2927,
       "length": 15,
-      "value": "\"FaceTec_ideal\""
+      "value": "\"vove_document\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
       "kind": "StringLiteral",
-      "offset": 2394,
+      "offset": 2959,
       "length": 5,
       "value": "\"png\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
       "kind": "StringLiteral",
-      "offset": 2645,
+      "offset": 3205,
+      "length": 15,
+      "value": "\"vove_torch_on\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 3237,
+      "length": 5,
+      "value": "\"png\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 3379,
       "length": 16,
-      "value": "\"FaceTec_review\""
+      "value": "\"vove_torch_off\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
       "kind": "StringLiteral",
-      "offset": 2678,
-      "length": 5,
-      "value": "\"png\""
-    },
-    {
-      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 2939,
-      "length": 18,
-      "value": "\"FaceTec_document\""
-    },
-    {
-      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 2974,
-      "length": 5,
-      "value": "\"png\""
-    },
-    {
-      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 3220,
-      "length": 18,
-      "value": "\"FaceTec_torch_on\""
-    },
-    {
-      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 3255,
-      "length": 5,
-      "value": "\"png\""
-    },
-    {
-      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 3397,
-      "length": 19,
-      "value": "\"FaceTec_torch_off\""
-    },
-    {
-      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 3433,
+      "offset": 3412,
       "length": 5,
       "value": "\"png\""
     },

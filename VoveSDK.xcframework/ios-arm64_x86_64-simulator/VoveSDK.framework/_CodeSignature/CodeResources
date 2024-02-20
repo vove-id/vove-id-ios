@@ -4,42 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>FaceTec_camera.png</key>
-		<data>
-		SfHsEiFp9ZWgCLM+9C6OyKG9PNk=
-		</data>
-		<key>FaceTec_cancel.png</key>
-		<data>
-		sa4WGlsXGuTIxQVfzmRlUrkVizc=
-		</data>
-		<key>FaceTec_document.png</key>
-		<data>
-		A+uJHZZLIq1S+HC/Xcps6WJPgd8=
-		</data>
-		<key>FaceTec_enter_fullscreen.png</key>
-		<data>
-		xgZ5mHV3h0jjIDCTIesfSxqm8PA=
-		</data>
-		<key>FaceTec_id_scan_watermark.png</key>
-		<data>
-		CJz1DHLRoW3awXYd9Kw/8WAGAbU=
-		</data>
-		<key>FaceTec_ideal.png</key>
-		<data>
-		dL3gQmJ7vXayCLHFAElGMu04Hgg=
-		</data>
-		<key>FaceTec_review.png</key>
-		<data>
-		d7Zf5eyF6NqmuehRqwttbDGLoHw=
-		</data>
-		<key>FaceTec_torch_off.png</key>
-		<data>
-		KAolB8TZDtj0q0i6naDm8lvTgSA=
-		</data>
-		<key>FaceTec_torch_on.png</key>
-		<data>
-		Nb2THP7dV2BbMnnoF0aKBM0vOvo=
-		</data>
 		<key>Headers/VoveSDK-Swift.h</key>
 		<data>
 		hE0XPXk42QwthYVWbdKpzSH83Kw=
@@ -54,7 +18,7 @@
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		kS7UR4iyGO3U9eaYZ4piyTVU0Ao=
+		UspUjt4onzOs7emXTpfZpmwndBA=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -74,7 +38,7 @@
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		kS7UR4iyGO3U9eaYZ4piyTVU0Ao=
+		UspUjt4onzOs7emXTpfZpmwndBA=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -96,76 +60,49 @@
 		<data>
 		8F0/li2DHTdB3Bbf40zQSjwg7fY=
 		</data>
+		<key>vove_camera.png</key>
+		<data>
+		SfHsEiFp9ZWgCLM+9C6OyKG9PNk=
+		</data>
+		<key>vove_cancel.png</key>
+		<data>
+		sa4WGlsXGuTIxQVfzmRlUrkVizc=
+		</data>
+		<key>vove_document.png</key>
+		<data>
+		A+uJHZZLIq1S+HC/Xcps6WJPgd8=
+		</data>
+		<key>vove_enter_fullscreen.png</key>
+		<data>
+		xgZ5mHV3h0jjIDCTIesfSxqm8PA=
+		</data>
+		<key>vove_id_scan_watermark.png</key>
+		<data>
+		CJz1DHLRoW3awXYd9Kw/8WAGAbU=
+		</data>
+		<key>vove_ideal.png</key>
+		<data>
+		dL3gQmJ7vXayCLHFAElGMu04Hgg=
+		</data>
 		<key>vove_logo.png</key>
 		<data>
 		Nv3t0ZvUFBJaWBt5VY2m8lsV1do=
 		</data>
+		<key>vove_review.png</key>
+		<data>
+		d7Zf5eyF6NqmuehRqwttbDGLoHw=
+		</data>
+		<key>vove_torch_off.png</key>
+		<data>
+		KAolB8TZDtj0q0i6naDm8lvTgSA=
+		</data>
+		<key>vove_torch_on.png</key>
+		<data>
+		Nb2THP7dV2BbMnnoF0aKBM0vOvo=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>FaceTec_camera.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jnPNQWo2i7SCq2NeUYAdS8tMniK8BhDrrewxQYuBjnM=
-			</data>
-		</dict>
-		<key>FaceTec_cancel.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kFZPAQ3m4NDyAr1hGsfacFELP0fiE9iQsGfFkkuS6ZE=
-			</data>
-		</dict>
-		<key>FaceTec_document.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tCpZvNEKuiOmw3Knvj5M6eOuY454ACyyOBlmIa4ZGLA=
-			</data>
-		</dict>
-		<key>FaceTec_enter_fullscreen.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Mb6/WUk5Brv73ZKvwPy2hLCJHUX8g9a/BvFebmqgY/U=
-			</data>
-		</dict>
-		<key>FaceTec_id_scan_watermark.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nwm4lGbaokwou3LIpJyD8ZWS3rSkfm/cT9H9Xu8yYs8=
-			</data>
-		</dict>
-		<key>FaceTec_ideal.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			b+fyqRq2HVKs5gKt1T0jKhteh9+zFuGbp/Hhho1kIbw=
-			</data>
-		</dict>
-		<key>FaceTec_review.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yKMt7fbAvCVsDG8t8j8fec2Z1QNIY9wZUwlq08HNPhc=
-			</data>
-		</dict>
-		<key>FaceTec_torch_off.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			f1h5Epa5u2IWAyXemOE0uqTEjsQmD6om/azmUoVz/Kw=
-			</data>
-		</dict>
-		<key>FaceTec_torch_on.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BWDOQ49nOw/GWHC99Dc6+qAbnXuByxzHMqwE2P55tR4=
-			</data>
-		</dict>
 		<key>Headers/VoveSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -184,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			95VaPpExFXk4bThPVgrmgrCb36P2MNTXbxIZx4eTkAw=
+			ITCwrhF5gQOue0PpQm4PHilgBjj0VGjBjkOfSm7moKo=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -219,7 +156,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			95VaPpExFXk4bThPVgrmgrCb36P2MNTXbxIZx4eTkAw=
+			ITCwrhF5gQOue0PpQm4PHilgBjj0VGjBjkOfSm7moKo=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -257,11 +194,74 @@
 			I3NDHnoGNND9e7P5zVo48fDWO7tQjfCaEOPwGokLA5s=
 			</data>
 		</dict>
+		<key>vove_camera.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jnPNQWo2i7SCq2NeUYAdS8tMniK8BhDrrewxQYuBjnM=
+			</data>
+		</dict>
+		<key>vove_cancel.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kFZPAQ3m4NDyAr1hGsfacFELP0fiE9iQsGfFkkuS6ZE=
+			</data>
+		</dict>
+		<key>vove_document.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tCpZvNEKuiOmw3Knvj5M6eOuY454ACyyOBlmIa4ZGLA=
+			</data>
+		</dict>
+		<key>vove_enter_fullscreen.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Mb6/WUk5Brv73ZKvwPy2hLCJHUX8g9a/BvFebmqgY/U=
+			</data>
+		</dict>
+		<key>vove_id_scan_watermark.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nwm4lGbaokwou3LIpJyD8ZWS3rSkfm/cT9H9Xu8yYs8=
+			</data>
+		</dict>
+		<key>vove_ideal.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			b+fyqRq2HVKs5gKt1T0jKhteh9+zFuGbp/Hhho1kIbw=
+			</data>
+		</dict>
 		<key>vove_logo.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			5rWCwuN3XG/ErcTJqP+KKm9iN5W2sGVD6brno4DhtgM=
+			</data>
+		</dict>
+		<key>vove_review.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yKMt7fbAvCVsDG8t8j8fec2Z1QNIY9wZUwlq08HNPhc=
+			</data>
+		</dict>
+		<key>vove_torch_off.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f1h5Epa5u2IWAyXemOE0uqTEjsQmD6om/azmUoVz/Kw=
+			</data>
+		</dict>
+		<key>vove_torch_on.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BWDOQ49nOw/GWHC99Dc6+qAbnXuByxzHMqwE2P55tR4=
 			</data>
 		</dict>
 	</dict>

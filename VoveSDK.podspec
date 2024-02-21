@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "VoveSDK"
-  s.version       = "0.1.1"
+  s.version       = "0.1.2"
   s.summary       = "Verify once, Verify everywhere."
   s.description   = "VOVE ID - Instant, seamless identity verification. Designed for trust, user-centric, fully compliant with AML/KYC. Optimized for the MEA region."
   s.homepage      = "https://www.voveid.com/"
@@ -10,7 +10,5 @@ Pod::Spec.new do |s|
   s.swift_version = "4.2"
   s.source        = { :git => "https://github.com/VOVE-ID/vove-id-ios.git", :tag => "#{s.version}" }
   s.vendored_frameworks = "VoveSDK.xcframework", "FaceTecSDK.xcframework"
-  s.xcconfig = {
-    "CLANG_MODULES_AUTOLINK" => "YES",
-  }
+  s.resources = "FaceTecSDK.xcframework/ios-arm64/FaceTecSDK.framework/Assets.car"
 end

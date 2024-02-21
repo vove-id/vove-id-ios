@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "VoveSDK",
-            targets: ["VoveSDK"]),
+            targets: ["VoveSDK", "FaceTecSDK"]),
     ],
     targets: [
         .binaryTarget(

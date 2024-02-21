@@ -9,6 +9,9 @@ Pod::Spec.new do |s|
   s.platform      = :ios, "11.0"
   s.swift_version = "4.2"
   s.source        = { :git => "https://github.com/VOVE-ID/vove-id-ios.git", :tag => "#{s.version}" }
-  s.vendored_frameworks = "VoveSDK.xcframework", "FaceTecSDK.xcframework"
-  s.resources = "FaceTecSDK.xcframework/ios-arm64/FaceTecSDK.framework/Assets.car"
+  s.vendored_frameworks = ["VoveSDK.xcframework", "FaceTecSDK.xcframework"]
+  s.resource_bundles = {
+   'FaceTecSDK' => ['FaceTecSDK.xcframework/ios-arm64/**/*.{png,jpg,lproj,nib,car,txt}']
+  }
+
 end

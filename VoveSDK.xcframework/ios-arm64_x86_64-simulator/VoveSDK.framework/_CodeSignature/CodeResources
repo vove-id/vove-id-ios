@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/VoveSDK-Swift.h</key>
 		<data>
-		hE0XPXk42QwthYVWbdKpzSH83Kw=
+		jSdstIEHOY2w/v6m0DIy/dmle78=
 		</data>
 		<key>Headers/VoveSDK.h</key>
 		<data>
@@ -14,51 +14,99 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PmB0e6Z6I5tLkRDXiPorXPHE7aI=
+		Vj1r0sTlniigthfkwIeTRlJYd0s=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		UspUjt4onzOs7emXTpfZpmwndBA=
+		3awJWNGn+96i4LM6KBiwOZbZK9g=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		97/xOHwzM6OiDrElCyAQY7DXMN4=
+		ve4FG+pm7R4RtMSz6pFkciMdsk0=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+PmartknNIWHaawMXzacWz9nLS8=
+		y/U+ibGoqxEcc+MZCyzPMuIwCvo=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		97/xOHwzM6OiDrElCyAQY7DXMN4=
+		ve4FG+pm7R4RtMSz6pFkciMdsk0=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AndrGGiXedazHHlOg//jcwtO8Hc=
+		SC8Zvy9X85oAkqlyf0ZoykDR8ak=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		UspUjt4onzOs7emXTpfZpmwndBA=
+		3awJWNGn+96i4LM6KBiwOZbZK9g=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Qs8izIVJa+eJyi+cxOv8QpjexKA=
+		vXUs3USnhprKcpVAAuU8fV73hpU=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Aag9ddXVIORj0Yo8BUjCGFj34/A=
+		j2Ky+ek9fVZUDrX5y7Flf3SGoVA=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Qs8izIVJa+eJyi+cxOv8QpjexKA=
+		vXUs3USnhprKcpVAAuU8fV73hpU=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4KX33oek68LX7Lu1b8lYHmRUsy0=
+		yVV7vopA2JE+9LekXkW4PAFg0aI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		8F0/li2DHTdB3Bbf40zQSjwg7fY=
+		</data>
+		<key>Vove-ar.strings</key>
+		<data>
+		C3Zy2GXEb6EpSX6LO5WU9jdyWrc=
+		</data>
+		<key>Vove-arMA.strings</key>
+		<data>
+		KlDTiHvcEFipdqIyJLj6Okrw6fg=
+		</data>
+		<key>Vove-fr.strings</key>
+		<data>
+		ulISKTKVhaiOXsUpW39/BsbrEoU=
+		</data>
+		<key>Vove.strings</key>
+		<data>
+		GiAZWIjtGPmnMIty/cnvpy6mgpg=
+		</data>
+		<key>facescan_successful_sound_file.mp3</key>
+		<data>
+		V8FOCUiNf36l8iVhXmPoL/NYZjE=
+		</data>
+		<key>please_frame_your_face_sound_file.mp3</key>
+		<data>
+		eaFDRt9sP/ca1s4+/hWHcudIAuE=
+		</data>
+		<key>please_move_closer_sound_file.mp3</key>
+		<data>
+		Yc2wclTiOcnvv7x9FolI3SzpG7o=
+		</data>
+		<key>please_press_button_sound_file.mp3</key>
+		<data>
+		bkHMHF5xLLpRniBq/HR+awBVW7o=
+		</data>
+		<key>please_retry_sound_file.mp3</key>
+		<data>
+		nqC0CPdmeNLnZp/PPBo/T0S92CM=
+		</data>
+		<key>uploading_sound_file.mp3</key>
+		<data>
+		7+GL8FjYh1LKfaRXzz0OKY0MzJw=
+		</data>
+		<key>vocal_guidance_off.mp3</key>
+		<data>
+		0o7u812DkpIvFG5FdcUdRC1X+kg=
+		</data>
+		<key>vocal_guidance_on.mp3</key>
+		<data>
+		r/6WnzP4B1ESZb1EyCbcUqytm+w=
 		</data>
 		<key>vove_camera.png</key>
 		<data>
@@ -107,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Oxtas4BvHumAwGiyi3XbjsVEiDH/Hr2JUAKgxUWZ8oY=
+			KH6a+9vqZRFIJRRDJ40m9EPrjLVtwqIALee0zLIX6Kc=
 			</data>
 		</dict>
 		<key>Headers/VoveSDK.h</key>
@@ -121,70 +169,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ITCwrhF5gQOue0PpQm4PHilgBjj0VGjBjkOfSm7moKo=
+			FRlN8awfre21F9MsyjxTZ9lxEawB5dP+p9BMn7+9dW4=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ctT+YTrsrkKUaZtG47W9XdUZsAaqh7lcNjtN669VnAs=
+			hy9yM5i9s3YHuLQRe/mtnDVkX1tHBYI+fJ5ISi5gGaQ=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ccrwEiuTUWVZweUvQZ188lPLSIK5C++j67rfwcYIV9c=
+			kc06LK/sujfr2+CmDxkadOAfzPhfuAp+XJVMz7JYSVI=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ctT+YTrsrkKUaZtG47W9XdUZsAaqh7lcNjtN669VnAs=
+			hy9yM5i9s3YHuLQRe/mtnDVkX1tHBYI+fJ5ISi5gGaQ=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EmT9veF6f/aPJyN36PqO/7V2CFnJ31UjcPZC/TGypfs=
+			U6wqk3wKVRcrfdiQg2oMZu5NsFs7hDGfC6U+/dMsHyI=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ITCwrhF5gQOue0PpQm4PHilgBjj0VGjBjkOfSm7moKo=
+			FRlN8awfre21F9MsyjxTZ9lxEawB5dP+p9BMn7+9dW4=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KoZnOQQXGmNrXX68v7WQYg5SuUyG5uiCILLP8LOEdRE=
+			Od0wfpaTZPvFt6VSR+0VSrPRiDVncobTtO7JgUycw2M=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3+9YHqs/R8ScSrAmDsr7bSW9/rLS6uLpgKCBiEIP1BU=
+			zMrTSPbRuh/M+Dr2lEJSWUNivfJpSU0HpsvvTD7MEx8=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KoZnOQQXGmNrXX68v7WQYg5SuUyG5uiCILLP8LOEdRE=
+			Od0wfpaTZPvFt6VSR+0VSrPRiDVncobTtO7JgUycw2M=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NLJDw0leAx692Sav4jZiLrMft1R6m7SduG+j5y4CQnU=
+			m+VO7nU6fpuSHmyif5oVnJOPi7h+BMB5dyG9GJvMRdo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -192,6 +240,90 @@
 			<key>hash2</key>
 			<data>
 			I3NDHnoGNND9e7P5zVo48fDWO7tQjfCaEOPwGokLA5s=
+			</data>
+		</dict>
+		<key>Vove-ar.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HPtrEh230/Gs3lK9dkfvIalb8mTALtZ0gV79m3GZhbI=
+			</data>
+		</dict>
+		<key>Vove-arMA.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+FQeQpDuPKGcPdoRNUhjHja8bAHcrNF6UUOTiyS7vSo=
+			</data>
+		</dict>
+		<key>Vove-fr.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BrtuYKNne7yIVht+fB/kW6ax4MOj5VIDGlSUxyfDbnU=
+			</data>
+		</dict>
+		<key>Vove.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			z6LEopjBL3J9OR6e9l+hZytyJJ62hlaCk5ROb4wL3Qw=
+			</data>
+		</dict>
+		<key>facescan_successful_sound_file.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OiSzcIyzMLjL1DqXReM6ztBWTnXvvAi8GlFXe+PL8TM=
+			</data>
+		</dict>
+		<key>please_frame_your_face_sound_file.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5aZMTIO2i9QTbOTo5IkVe1q8znEE6nAYS/HjaDR9Kv4=
+			</data>
+		</dict>
+		<key>please_move_closer_sound_file.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1fIizsueA8KF0BkYtX0UD/cyB2e+SXBcDFGL92+wINM=
+			</data>
+		</dict>
+		<key>please_press_button_sound_file.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fJNoRueRqsCWACTYekpPTV4z2BN2cAuu4tHdcek6R9g=
+			</data>
+		</dict>
+		<key>please_retry_sound_file.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gR2x0Dx+uRjjYBadlxeuvI/nJMDkshwCiDK4yAxqAsc=
+			</data>
+		</dict>
+		<key>uploading_sound_file.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Rl5HVn7HFx56ufBH2BWcxBQmClrt3NGSvkpo3iHu9Bc=
+			</data>
+		</dict>
+		<key>vocal_guidance_off.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8GQZx7TBOJleHLK7GYOJuysZKn0Yxuxm5xBs4qYnEZs=
+			</data>
+		</dict>
+		<key>vocal_guidance_on.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			S69k7tnVv9kbg0eId3WkkTbxaoAZ8eRkCHe1rGUkWmQ=
 			</data>
 		</dict>
 		<key>vove_camera.png</key>

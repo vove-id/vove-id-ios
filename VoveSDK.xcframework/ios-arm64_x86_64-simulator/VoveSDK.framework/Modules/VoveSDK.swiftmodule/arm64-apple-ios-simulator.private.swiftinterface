@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VoveSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name VoveSDK
 import Combine
 import Foundation
 import Swift
@@ -13,7 +12,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 
 public enum VerificationResult {
-  case success, failure, pending
+  case success, failure, pending, canceled
   public static func == (a: VoveSDK.VerificationResult, b: VoveSDK.VerificationResult) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -21,9 +20,31 @@ public enum VerificationResult {
   }
 }
 
+public enum VoveEnvironment {
+  case sandbox, production
+  public static func == (a: VoveSDK.VoveEnvironment, b: VoveSDK.VoveEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum VoveLocale {
+  case en, fr, ar, arMA
+  public static func == (a: VoveSDK.VoveLocale, b: VoveSDK.VoveLocale) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class Vove {
-  public static func processIDMatching(sessionToken: Swift.String, completion: @escaping (VoveSDK.VerificationResult?) -> Swift.Void)
+  public static func processIDMatching(environment: VoveSDK.VoveEnvironment, sessionToken: Swift.String, completion: @escaping (VoveSDK.VerificationResult?) -> Swift.Void)
+  public static func setVocalGuidanceEnabled(_ isEnabled: Swift.Bool)
+  public static func setLocal(local: VoveSDK.VoveLocale)
   @objc deinit
 }
 extension VoveSDK.VerificationResult : Swift.Equatable {}
 extension VoveSDK.VerificationResult : Swift.Hashable {}
+extension VoveSDK.VoveEnvironment : Swift.Equatable {}
+extension VoveSDK.VoveEnvironment : Swift.Hashable {}
+extension VoveSDK.VoveLocale : Swift.Equatable {}
+extension VoveSDK.VoveLocale : Swift.Hashable {}

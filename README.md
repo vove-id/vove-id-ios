@@ -78,6 +78,8 @@ Vove.startIDVerificationSession(sessionToken: "your_session_token_here") { resul
         print("Verification pending")
     case .failure(let error):
         print("Verification failed: \(error.localizedDescription)")
+    case .canceled:
+        print("Verification canceled")
     }
 }
 ```
@@ -98,6 +100,10 @@ The `pending` status means that the user's ID verification is still in progress 
 ### Failed
 
 The `failed` status occurs when the ID verification process fails. It's important to handle this case by informing the user of the failure and potentially guiding them on how to retry the verification process.
+
+### Canceled
+
+The `canceled` status indicates that the user has canceled the ID verification process. You should handle this case by updating the UI or providing the user with an option to restart the verification process.
 
 Conclusion
 ----------

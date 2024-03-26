@@ -10,5 +10,8 @@ Pod::Spec.new do |s|
   s.swift_version = "4.2"
   s.source        = { :git => "https://github.com/VOVE-ID/vove-id-ios.git", :tag => "#{s.version}" }
   s.vendored_frameworks = "VoveSDK.xcframework", "FaceTecSDK.xcframework"
-  s.resources = "FaceTecSDK.xcframework/ios-arm64/FaceTecSDK.framework/Assets.car"
+  s.xcconfig = {
+    "CLANG_MODULES_AUTOLINK" => "YES",
+  }
+
 end

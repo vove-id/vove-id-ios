@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		3awJWNGn+96i4LM6KBiwOZbZK9g=
+		MVkq4bnm0xFPy9zcwTWc+PrR39w=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ve4FG+pm7R4RtMSz6pFkciMdsk0=
+		Fvkv4c148KhuhhPF+OJDdSrpchk=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ve4FG+pm7R4RtMSz6pFkciMdsk0=
+		Fvkv4c148KhuhhPF+OJDdSrpchk=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SC8Zvy9X85oAkqlyf0ZoykDR8ak=
+		g+CaX2iAbEXytCubM+6p8i6lIC4=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3awJWNGn+96i4LM6KBiwOZbZK9g=
+		MVkq4bnm0xFPy9zcwTWc+PrR39w=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		vXUs3USnhprKcpVAAuU8fV73hpU=
+		9thWnmJ1cZq/RwVIldjFEmIJQOo=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vXUs3USnhprKcpVAAuU8fV73hpU=
+		9thWnmJ1cZq/RwVIldjFEmIJQOo=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yVV7vopA2JE+9LekXkW4PAFg0aI=
+		+BLwCa+J/u+Vuci5c0a3vLSm4pQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Vove-arMA.strings</key>
 		<data>
-		KlDTiHvcEFipdqIyJLj6Okrw6fg=
+		jtXczlPuzNyJnACfkGAy/Zjtl0o=
 		</data>
 		<key>Vove-fr.strings</key>
 		<data>
@@ -76,37 +76,81 @@
 		<data>
 		GiAZWIjtGPmnMIty/cnvpy6mgpg=
 		</data>
-		<key>facescan_successful_sound_file.mp3</key>
+		<key>ar-ma.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DfocpMZGFDyuK4pHEpZSdYUCfe4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ar.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			URSn9YvZsFkFu3cfT5m7+SShcC8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ar_please_frame_your_face_sound_file.mp3</key>
 		<data>
-		V8FOCUiNf36l8iVhXmPoL/NYZjE=
+		AIyXUP93Ec5wCZQlMrEK/+85bGs=
 		</data>
-		<key>please_frame_your_face_sound_file.mp3</key>
+		<key>ar_please_move_closer_sound_file.mp3</key>
 		<data>
-		eaFDRt9sP/ca1s4+/hWHcudIAuE=
+		vQ9cgevN/HM23R+u5O1qXE93evI=
 		</data>
-		<key>please_move_closer_sound_file.mp3</key>
+		<key>ar_please_press_button_sound_file.mp3</key>
 		<data>
-		Yc2wclTiOcnvv7x9FolI3SzpG7o=
+		xzFzeONQZ/Pr+8BggoMv7OvI2fI=
 		</data>
-		<key>please_press_button_sound_file.mp3</key>
+		<key>empty.mp3</key>
 		<data>
-		bkHMHF5xLLpRniBq/HR+awBVW7o=
+		DHfajkdQMa5Lfx/WxBNt16Q82bs=
 		</data>
-		<key>please_retry_sound_file.mp3</key>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			F9CBI7kUYoOE32MLQQgE/e35NqY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en_please_frame_your_face_sound_file.mp3</key>
 		<data>
-		nqC0CPdmeNLnZp/PPBo/T0S92CM=
+		zh1/TarkbeIeNsLQm1TyTDDsW2w=
 		</data>
-		<key>uploading_sound_file.mp3</key>
+		<key>en_please_move_closer_sound_file.mp3</key>
 		<data>
-		7+GL8FjYh1LKfaRXzz0OKY0MzJw=
+		GcfJN0WXIOhLCQZrrQmWG8cc1Rw=
 		</data>
-		<key>vocal_guidance_off.mp3</key>
+		<key>en_please_press_button_sound_file.mp3</key>
 		<data>
-		0o7u812DkpIvFG5FdcUdRC1X+kg=
+		bxNff6DDs4m4Anp1yKSSqdH8RKE=
 		</data>
-		<key>vocal_guidance_on.mp3</key>
+		<key>fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			L2k+WWUuqu0QhGwMmLoC7CZB+vA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr_please_frame_your_face_sound_file.mp3</key>
 		<data>
-		r/6WnzP4B1ESZb1EyCbcUqytm+w=
+		HBtzSXin4DnyVgu999F/TO6HYP0=
+		</data>
+		<key>fr_please_move_closer_sound_file.mp3</key>
+		<data>
+		K7+8+FjuAuKoDL0taRKBxUvUIgE=
+		</data>
+		<key>fr_please_press_button_sound_file.mp3</key>
+		<data>
+		Ug55G7J+ORa9jn9W8KcZuATnyfw=
 		</data>
 		<key>vove_camera.png</key>
 		<data>
@@ -169,14 +213,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FRlN8awfre21F9MsyjxTZ9lxEawB5dP+p9BMn7+9dW4=
+			G38awhJkPUYg0fQOrZqKoywnr6ovmPDms4AayuoMQx4=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hy9yM5i9s3YHuLQRe/mtnDVkX1tHBYI+fJ5ISi5gGaQ=
+			luOXrpY51vJZPa58BNy9bOhyMOwQ/DTaW0fj2Q7ch/U=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -190,28 +234,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hy9yM5i9s3YHuLQRe/mtnDVkX1tHBYI+fJ5ISi5gGaQ=
+			luOXrpY51vJZPa58BNy9bOhyMOwQ/DTaW0fj2Q7ch/U=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U6wqk3wKVRcrfdiQg2oMZu5NsFs7hDGfC6U+/dMsHyI=
+			hSAb43shDwUSRzRLFGWtdEOaDNQH6UItNfbNXgteLV8=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FRlN8awfre21F9MsyjxTZ9lxEawB5dP+p9BMn7+9dW4=
+			G38awhJkPUYg0fQOrZqKoywnr6ovmPDms4AayuoMQx4=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Od0wfpaTZPvFt6VSR+0VSrPRiDVncobTtO7JgUycw2M=
+			MLOEQHETysrrZwtbjlorkk/w+daNzgiPaFZeWvsJwaQ=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -225,14 +269,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Od0wfpaTZPvFt6VSR+0VSrPRiDVncobTtO7JgUycw2M=
+			MLOEQHETysrrZwtbjlorkk/w+daNzgiPaFZeWvsJwaQ=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m+VO7nU6fpuSHmyif5oVnJOPi7h+BMB5dyG9GJvMRdo=
+			Oe5xfYtTeDX/LWdJZffK6KqM/g+hCrYlrnp1wSi+h3c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -253,7 +297,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+FQeQpDuPKGcPdoRNUhjHja8bAHcrNF6UUOTiyS7vSo=
+			WGqpCQih1g1/cyXqwbL0F5XUkVj9NZ102gjcswuZnVc=
 			</data>
 		</dict>
 		<key>Vove-fr.strings</key>
@@ -270,60 +314,110 @@
 			z6LEopjBL3J9OR6e9l+hZytyJJ62hlaCk5ROb4wL3Qw=
 			</data>
 		</dict>
-		<key>facescan_successful_sound_file.mp3</key>
+		<key>ar-ma.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OiSzcIyzMLjL1DqXReM6ztBWTnXvvAi8GlFXe+PL8TM=
+			bIhFqLeVcqMivOxgD2ItEmmNvMvSN9JToPedOVCZHls=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ar.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5GEeXOlhSZzpfuf4v3qG3qqlP4Rpz9AVKmqInZ4IMT4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ar_please_frame_your_face_sound_file.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UFuwDQYxK9ldEjIAIO8yx202Fk/xBmsFBMtaSbDSKYc=
 			</data>
 		</dict>
-		<key>please_frame_your_face_sound_file.mp3</key>
+		<key>ar_please_move_closer_sound_file.mp3</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5aZMTIO2i9QTbOTo5IkVe1q8znEE6nAYS/HjaDR9Kv4=
+			d3KkbSpFCd6lmXt0FgAp0LYgHRcmyluUwygGyKA50jw=
 			</data>
 		</dict>
-		<key>please_move_closer_sound_file.mp3</key>
+		<key>ar_please_press_button_sound_file.mp3</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1fIizsueA8KF0BkYtX0UD/cyB2e+SXBcDFGL92+wINM=
+			TMs6F3JlW+7A4xMnIBiGbDdNCwA8SF7jBcVqQBA+BrQ=
 			</data>
 		</dict>
-		<key>please_press_button_sound_file.mp3</key>
+		<key>empty.mp3</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fJNoRueRqsCWACTYekpPTV4z2BN2cAuu4tHdcek6R9g=
+			gU6MSc6yqXrErPhEPQ5dNKgwaKpDG/L4AMF1oTd42NI=
 			</data>
 		</dict>
-		<key>please_retry_sound_file.mp3</key>
+		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gR2x0Dx+uRjjYBadlxeuvI/nJMDkshwCiDK4yAxqAsc=
+			Cy+zDToi2mwJYpQUuC9Ey4i+jg8zSJ8LhxK4OODhPlg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en_please_frame_your_face_sound_file.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y35NUWI3k2BbIIpjfrVfetjEN0ghwprFH2X87P/UkYw=
 			</data>
 		</dict>
-		<key>uploading_sound_file.mp3</key>
+		<key>en_please_move_closer_sound_file.mp3</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rl5HVn7HFx56ufBH2BWcxBQmClrt3NGSvkpo3iHu9Bc=
+			qVNmEaabr8WgC1oFmyl+A1plzOpApU5qpVXi+MPt/0I=
 			</data>
 		</dict>
-		<key>vocal_guidance_off.mp3</key>
+		<key>en_please_press_button_sound_file.mp3</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8GQZx7TBOJleHLK7GYOJuysZKn0Yxuxm5xBs4qYnEZs=
+			CtwKhcE4zAKgMYo/8b8JFdX90eFpuykFa4xMmv4QEos=
 			</data>
 		</dict>
-		<key>vocal_guidance_on.mp3</key>
+		<key>fr.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S69k7tnVv9kbg0eId3WkkTbxaoAZ8eRkCHe1rGUkWmQ=
+			/mk85IlznQeLSNX1Af55rANE0a6Qn91ZLWIfQVcwtqI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr_please_frame_your_face_sound_file.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rk94yUSABPetTiwTeeumLJLQKBLlehBg20Ek09C0Btg=
+			</data>
+		</dict>
+		<key>fr_please_move_closer_sound_file.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HDNo8JSHSqL2B9x1kSZfcrPw23EyR7zC5QBhJaquV/U=
+			</data>
+		</dict>
+		<key>fr_please_press_button_sound_file.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HhQO1H603YSEMB8ULkxNFaWFg5CChchj8VGcMfP+EOA=
 			</data>
 		</dict>
 		<key>vove_camera.png</key>

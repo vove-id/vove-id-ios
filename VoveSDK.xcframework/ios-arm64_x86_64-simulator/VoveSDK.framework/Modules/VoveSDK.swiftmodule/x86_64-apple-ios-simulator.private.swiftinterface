@@ -40,6 +40,7 @@ public enum VoveLocale {
   public static func processIDMatching(environment: VoveSDK.VoveEnvironment, sessionToken: Swift.String, completion: @escaping (VoveSDK.VerificationResult?) -> Swift.Void)
   public static func setVocalGuidanceEnabled(_ isEnabled: Swift.Bool)
   public static func setLocal(local: VoveSDK.VoveLocale)
+  public static func getCurrentLocale() -> VoveSDK.VoveLocale?
   @objc deinit
 }
 extension VoveSDK.VerificationResult : Swift.Equatable {}

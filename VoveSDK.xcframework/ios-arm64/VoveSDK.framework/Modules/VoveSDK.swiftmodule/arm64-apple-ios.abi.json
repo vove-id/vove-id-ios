@@ -16,6 +16,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -1131,6 +1141,37 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentLocale",
+            "printedName": "getCurrentLocale()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VoveSDK.VoveLocale?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoveLocale",
+                    "printedName": "VoveSDK.VoveLocale",
+                    "usr": "s:7VoveSDK0A6LocaleO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7VoveSDK0A0C16getCurrentLocaleAA0aE0OSgyFZ",
+            "mangledName": "$s7VoveSDK0A0C16getCurrentLocaleAA0aE0OSgyFZ",
+            "moduleName": "VoveSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1319,7 +1360,7 @@
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 2157,
+      "offset": 2374,
       "length": 9,
       "value": "\"strings\""
     },

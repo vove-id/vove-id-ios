@@ -539,6 +539,13 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
         "name": "FaceTecSDK",
         "printedName": "FaceTecSDK",
         "declKind": "Import",
@@ -1226,6 +1233,34 @@
         "declAttributes": [
           "ImplementationOnly"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
       }
     ],
     "json_format_version": 8
@@ -1353,14 +1388,14 @@
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Vove.swift",
       "kind": "BooleanLiteral",
-      "offset": 1002,
+      "offset": 1350,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 2374,
+      "offset": 2722,
       "length": 9,
       "value": "\"strings\""
     },
@@ -1377,6 +1412,20 @@
       "offset": 764,
       "length": 18,
       "value": "\"VoveSDK.MainViewController\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/Library\/Developer\/Xcode\/DerivedData\/VoveSDK-bzjleprxrpnicnbwgfaajcfkgggi\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VoveSDK\/IntermediateBuildFilesPath\/VoveSDK.build\/Release-iphoneos\/VoveSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/Library\/Developer\/Xcode\/DerivedData\/VoveSDK-bzjleprxrpnicnbwgfaajcfkgggi\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VoveSDK\/IntermediateBuildFilesPath\/VoveSDK.build\/Release-iphoneos\/VoveSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 845,
+      "length": 6,
+      "value": "\"logo\""
     }
   ]
 }

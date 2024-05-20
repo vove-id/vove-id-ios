@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "VoveSDK"
-  s.version       = "0.3.1"
+  s.version       = "0.3.2"
   s.summary       = "Verify once, Verify everywhere."
   s.description   = "VOVE ID - Instant, seamless identity verification. Designed for trust, user-centric, fully compliant with AML/KYC. Optimized for the MEA region."
   s.homepage      = "https://www.voveid.com/"

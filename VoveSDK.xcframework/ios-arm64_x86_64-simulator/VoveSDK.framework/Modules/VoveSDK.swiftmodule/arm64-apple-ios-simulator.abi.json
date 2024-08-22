@@ -50,6 +50,57 @@
       },
       {
         "kind": "Import",
+        "name": "FaceTecSDK",
+        "printedName": "FaceTecSDK",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1264,9 +1315,79 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 170,
+      "length": 15,
+      "value": "\"VoveSDK.IDScanProcessor\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/helpers\/ImageHider.swift",
+      "kind": "Array",
+      "offset": 283,
+      "length": 38,
+      "value": "[\"FaceTec_internal_id_scan_watermark\"]"
+    },
+    {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 183,
+      "offset": 246,
+      "length": 26,
+      "value": "\"DOCUMENT_INFO_MISMATCHED\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 17,
+      "value": "\"MATCH_LEVEL_LOW\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 18,
+      "value": "\"DOCUMENT_EXPIRED\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 397,
+      "length": 28,
+      "value": "\"DOCUMENT_TYPE_NOT_ACCEPTED\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 26,
+      "value": "\"DOCUMENT_INFO_MISMATCHED\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 17,
+      "value": "\"MATCH_LEVEL_LOW\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 18,
+      "value": "\"DOCUMENT_EXPIRED\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 397,
+      "length": 28,
+      "value": "\"DOCUMENT_TYPE_NOT_ACCEPTED\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 435,
       "length": 19,
       "value": "\"VoveSDK.IDMatchingProcessor\""
     },
@@ -1280,91 +1401,98 @@
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1010,
-      "length": 28,
-      "value": "\"https:\/\/sandbox.voveid.com\""
+      "offset": 1014,
+      "length": 24,
+      "value": "\"https:\/\/api.voveid.org\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1070,
+      "offset": 1067,
+      "length": 24,
+      "value": "\"https:\/\/api.voveid.net\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 1123,
       "length": 24,
       "value": "\"https:\/\/api.voveid.com\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1451,
+      "offset": 1504,
       "length": 30,
       "value": "\"-----BEGIN PUBLIC KEY-----\n\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1492,
+      "offset": 1545,
       "length": 68,
       "value": "\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5PxZ3DLj+zP6T6HFgzzk\n\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1571,
+      "offset": 1624,
       "length": 68,
       "value": "\"M77LdzP3fojBoLasw7EfzvLMnJNUlyRb5m8e5QyyJxI+wRjsALHvFgLzGwxM8ehz\n\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1650,
+      "offset": 1703,
       "length": 68,
       "value": "\"DqqBZed+f4w33GgQXFZOS4AOvyPbALgCYoLehigLAbbCNTkeY5RDcmmSI\/sbp+s6\n\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1729,
+      "offset": 1782,
       "length": 68,
       "value": "\"mAiAKKvCdIqe17bltZ\/rfEoL3gPKEfLXeN549LTj3XBp0hvG4loQ6eC1E1tRzSkf\n\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1808,
+      "offset": 1861,
       "length": 68,
       "value": "\"GJD4GIVvR+j12gXAaftj3ahfYxioBH7F7HQxzmWkwDyn3bqU54eaiB7f0ftsPpWM\n\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1887,
+      "offset": 1940,
       "length": 68,
       "value": "\"ceUaqkL2DZUvgN0efEJjnWy5y1\/Gkq5GGWCROI9XG\/SwXJ30BbVUehTbVcD70+ZF\n\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1966,
+      "offset": 2019,
       "length": 12,
       "value": "\"8QIDAQAB\n\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1989,
+      "offset": 2042,
       "length": 26,
       "value": "\"-----END PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/viewModels\/NavigationViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 534,
+      "offset": 548,
       "length": 12,
       "value": "\"Onboarding\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/viewModels\/NavigationViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 572,
+      "offset": 586,
       "length": 9,
       "value": "\"Summary\""
     },

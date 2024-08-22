@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		YWktPVENuFBrhh378hX54OaP034=
+		JN1qOnYIJPCak/rXlwUIyXpnDIs=
 		</data>
 		<key>Headers/VoveSDK-Swift.h</key>
 		<data>
-		g5HFkyJ5Y+JcGmGF7Sa5iACdHnk=
+		rTWWV+UaFDNn5FAoNTtbcDx/NhI=
 		</data>
 		<key>Headers/VoveSDK.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		L30WMbBaXrJCHX1ykgqk7XYR7Kk=
+		jB3II3YufD8o8LHIoDeRtt5wKOw=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Cn3c7Yq+s9lUxl8CM3kxmWKiypE=
+		S8YSpBq/ozcSwBpz5X/pYSdSn/4=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PfUDgrwPWuETDw+ZMWjTu2APhYM=
+		St5HcEmU8S+dajZIJ7BZZAKYz2Y=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Cn3c7Yq+s9lUxl8CM3kxmWKiypE=
+		S8YSpBq/ozcSwBpz5X/pYSdSn/4=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		foL9vaTGiswKIZlOWtOVEfHDqOw=
+		eoz106h1czIa9CnqWidjkr+e7BQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -84,7 +84,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			thFktUGDAIZ5AG0+7wUsLjAKLDM=
+			bWNqGK7AHYVrH2pEbfpklkKYDcY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -93,7 +93,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			URSn9YvZsFkFu3cfT5m7+SShcC8=
+			RPzR6Bh8hXlqU7aJkG/NRKZgdwE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			F9CBI7kUYoOE32MLQQgE/e35NqY=
+			/6VEQt99EWk+nq0D/qFjHpW67WU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -139,7 +139,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			L2k+WWUuqu0QhGwMmLoC7CZB+vA=
+			7cSMkqxZ7cyG4SiLPwdsppi7rrQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -207,14 +207,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sXTnJeURFJbaKqUzQ1iDcx7/LBia/g4dlku09yj3EDk=
+			U7LUixCISCHtFbt6mIOHtfFOgcaDd/NDQcsCrfFjm00=
 			</data>
 		</dict>
 		<key>Headers/VoveSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hqsUp+rkbn7u7ryCPbfpb8W1COB3DbMe1rRmSpLj51g=
+			jcCoWpDTzxjGD/81qlhKnKlJoHlx3gB4ooGaGf3dVXM=
 			</data>
 		</dict>
 		<key>Headers/VoveSDK.h</key>
@@ -228,7 +228,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Txqg08o3SGDFX7QXw5NaYBEIf0ykJk7AowlWh4eqPw=
+			EOw1M3Ts8oreqMvDFi9pHjTLjf9Yd388ED/d9G7h3Ag=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -256,14 +256,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZX5bOA+S0r2J1vDDSK6nbFFZl0TL3uVGw6H41BhuoaY=
+			9zXbz9BdOdUAv1m/XpUhej+K7UEkFGTMdkzSs0NWKP0=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Txqg08o3SGDFX7QXw5NaYBEIf0ykJk7AowlWh4eqPw=
+			EOw1M3Ts8oreqMvDFi9pHjTLjf9Yd388ED/d9G7h3Ag=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -291,7 +291,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G0rdiJv+Hi1jlWTP3pHTcynBeIWSS5bCoIuFLn/tBUE=
+			wEqWk97j9PT3HAvIqJE9CctRLOaUC3dHmgO5id7Duks=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -333,7 +333,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FV9WopqSFXoyfucFn1l6GevHqmcD+MmLPP1sNsCZAIk=
+			DgPMWhcf9zWpICmf52t60Tj8bQcqIAG3W8wDV7QF2Pw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -342,7 +342,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5GEeXOlhSZzpfuf4v3qG3qqlP4Rpz9AVKmqInZ4IMT4=
+			eqn3zd6dMC6qaZUKrBOqnjzUS3H4UQYUgz2rMhxT45A=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -379,7 +379,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cy+zDToi2mwJYpQUuC9Ey4i+jg8zSJ8LhxK4OODhPlg=
+			r44XJ0Fz+8gL+hQyvlIPWEHghZ3mQ7b5VceC8G3rWQs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -409,7 +409,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/mk85IlznQeLSNX1Af55rANE0a6Qn91ZLWIfQVcwtqI=
+			4bsdiu79cyGx/1ZQJFuTJSbAGcoUf76MXjsLdngdd80=
 			</data>
 			<key>optional</key>
 			<true/>

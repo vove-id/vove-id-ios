@@ -8,6 +8,14 @@
 		<data>
 		JN1qOnYIJPCak/rXlwUIyXpnDIs=
 		</data>
+		<key>Config-dev.xcconfig</key>
+		<data>
+		JMy0uuyd8f6NbLfyUEkNiRgGkjE=
+		</data>
+		<key>Config.xcconfig</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
 		<key>Headers/VoveSDK-Swift.h</key>
 		<data>
 		rTWWV+UaFDNn5FAoNTtbcDx/NhI=
@@ -18,15 +26,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jB3II3YufD8o8LHIoDeRtt5wKOw=
+		H+kAZI2ANrlGP+9LEIDvo5aM9dI=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		S8YSpBq/ozcSwBpz5X/pYSdSn/4=
+		J0lNRFngOP65cfQFl23k8TyXAKU=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		k9GGz5SiyR0y448/6Kf5PW7rMR0=
+		eCLvPLUCie1haJQtnkMWy54ekR8=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +42,19 @@
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		k9GGz5SiyR0y448/6Kf5PW7rMR0=
+		eCLvPLUCie1haJQtnkMWy54ekR8=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		St5HcEmU8S+dajZIJ7BZZAKYz2Y=
+		Nayjg88yQ7qMuHha8bRQvocKUPw=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		S8YSpBq/ozcSwBpz5X/pYSdSn/4=
+		J0lNRFngOP65cfQFl23k8TyXAKU=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kAbOiQnmEVNUSAM1OQVoq1txb3I=
+		tNZ/4bXBlhFGXaCR5GcOHL2gq58=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +62,11 @@
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kAbOiQnmEVNUSAM1OQVoq1txb3I=
+		tNZ/4bXBlhFGXaCR5GcOHL2gq58=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eoz106h1czIa9CnqWidjkr+e7BQ=
+		yCSq8FR9glD/phhvPIwxd8prIZc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -66,25 +74,25 @@
 		</data>
 		<key>Vove-ar.strings</key>
 		<data>
-		eRzHR/SQXSkdEvRKE7ZYY4tvRHQ=
+		2pYhpYU8wNIYiXap1BrnM/VngcQ=
 		</data>
 		<key>Vove-arMA.strings</key>
 		<data>
-		LDGPXOSQ9FEX2bDrPIMHjptvOgQ=
+		AvSzKWyj8RUJNbcfCFQVIqe1EOo=
 		</data>
 		<key>Vove-en.strings</key>
 		<data>
-		GiAZWIjtGPmnMIty/cnvpy6mgpg=
+		UTDheYVgf8Y3MRp6xq2gvHnWC60=
 		</data>
 		<key>Vove-fr.strings</key>
 		<data>
-		ulISKTKVhaiOXsUpW39/BsbrEoU=
+		t8MmPVbC6jm4W+Fvz4mXVyjtZ24=
 		</data>
 		<key>ar-ma.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bWNqGK7AHYVrH2pEbfpklkKYDcY=
+			LgfjPQzWWAaqTS2QpCGl77JYAzQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -93,7 +101,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RPzR6Bh8hXlqU7aJkG/NRKZgdwE=
+			ruEizhxOxVyrhoDENtM7BnDN00w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -118,7 +126,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/6VEQt99EWk+nq0D/qFjHpW67WU=
+			NWhBJaCsorAk8fjTDfg8AjfNNkE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -139,7 +147,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7cSMkqxZ7cyG4SiLPwdsppi7rrQ=
+			6ocC7QoeCNEqE/bKyr9UQsTteho=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -158,7 +166,7 @@
 		</data>
 		<key>vove_camera.png</key>
 		<data>
-		SfHsEiFp9ZWgCLM+9C6OyKG9PNk=
+		btP1p84zcbSoDRPIMj/ACE2xh8E=
 		</data>
 		<key>vove_cancel.png</key>
 		<data>
@@ -166,11 +174,23 @@
 		</data>
 		<key>vove_document.png</key>
 		<data>
-		A+uJHZZLIq1S+HC/Xcps6WJPgd8=
+		ijqo5YwY9KeEc3mjqCkK0YXcA7I=
+		</data>
+		<key>vove_document_address_prof.png</key>
+		<data>
+		hzOG+x5M9NfnkulxBUR/iAc4eOQ=
+		</data>
+		<key>vove_document_car_registration.png</key>
+		<data>
+		ENshi2s1sCgKq5ePKX1C/NQ8b9w=
+		</data>
+		<key>vove_document_driver_license.png</key>
+		<data>
+		1B6YwRKOl9SD2CdJ/61xsMBO8MU=
 		</data>
 		<key>vove_enter_fullscreen.png</key>
 		<data>
-		xgZ5mHV3h0jjIDCTIesfSxqm8PA=
+		OiSt6NTzi+D/Fiso8nLQkiujWeY=
 		</data>
 		<key>vove_id_scan_watermark.png</key>
 		<data>
@@ -190,15 +210,15 @@
 		</data>
 		<key>vove_review.png</key>
 		<data>
-		d7Zf5eyF6NqmuehRqwttbDGLoHw=
+		ZGuCjx7TAyAFUd/PIibrsLtR2aU=
 		</data>
 		<key>vove_torch_off.png</key>
 		<data>
-		KAolB8TZDtj0q0i6naDm8lvTgSA=
+		Odapd1X9WU6UX40xWwil4LZB998=
 		</data>
 		<key>vove_torch_on.png</key>
 		<data>
-		Nb2THP7dV2BbMnnoF0aKBM0vOvo=
+		c4uwExmyElM6qgwPFUQbOMmBEOU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -208,6 +228,20 @@
 			<key>hash2</key>
 			<data>
 			U7LUixCISCHtFbt6mIOHtfFOgcaDd/NDQcsCrfFjm00=
+			</data>
+		</dict>
+		<key>Config-dev.xcconfig</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wFPFQ22DSf4O0cj1z8pxtWvchNuPiYqlBSO5+UorSiY=
+			</data>
+		</dict>
+		<key>Config.xcconfig</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
 		<key>Headers/VoveSDK-Swift.h</key>
@@ -228,14 +262,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EOw1M3Ts8oreqMvDFi9pHjTLjf9Yd388ED/d9G7h3Ag=
+			8O0B6XYM/NsFs/1ptib1kBTzSr0f3h0fhzC+tU2Mt2c=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VO5+mI9kmcwPXVf07EQ9QmJPq0c2lK6UGbZmZfg17h8=
+			gbcDNjKyL28s499Oz4Bw+hml/+Oee9woZMF0GDUAanw=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -249,28 +283,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VO5+mI9kmcwPXVf07EQ9QmJPq0c2lK6UGbZmZfg17h8=
+			gbcDNjKyL28s499Oz4Bw+hml/+Oee9woZMF0GDUAanw=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9zXbz9BdOdUAv1m/XpUhej+K7UEkFGTMdkzSs0NWKP0=
+			OnbQrc8b0fs40J5+uJv0QmfKU5i2+brE6eUY/cZDNBM=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EOw1M3Ts8oreqMvDFi9pHjTLjf9Yd388ED/d9G7h3Ag=
+			8O0B6XYM/NsFs/1ptib1kBTzSr0f3h0fhzC+tU2Mt2c=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MmwC4nK13bEv6mZ3W1cimpX9gqRpFhLHBraC4PD6tyQ=
+			KGlOKuSN8oeVvAlBoRQvz+QerKPf9yaDHpqeT0Bhb2M=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -284,14 +318,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MmwC4nK13bEv6mZ3W1cimpX9gqRpFhLHBraC4PD6tyQ=
+			KGlOKuSN8oeVvAlBoRQvz+QerKPf9yaDHpqeT0Bhb2M=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wEqWk97j9PT3HAvIqJE9CctRLOaUC3dHmgO5id7Duks=
+			+zcqcMqgBqa3Vu8REx8wEG4nqprU2kDDc2liS71FdiU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -305,35 +339,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VofqtQu7H0aEgGTIK6/n3PGUBQ1jhzpRvLX1b9D4cfs=
+			aW25eegYIlrRA18uSiNWvVquRRR+sCKexSsH+18b1YE=
 			</data>
 		</dict>
 		<key>Vove-arMA.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FY/UcgWM609dDEv8ooIh+0/G6DeoKwFaxZG/wQN5TrM=
+			VOmwPnpB925bVODPNVZv6kjjxevIko/inZtbk6g0S1I=
 			</data>
 		</dict>
 		<key>Vove-en.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z6LEopjBL3J9OR6e9l+hZytyJJ62hlaCk5ROb4wL3Qw=
+			9HrViFaZ+MdFYPIJny5mlV7rPpr0uB7HEUy+k8vD6SA=
 			</data>
 		</dict>
 		<key>Vove-fr.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BrtuYKNne7yIVht+fB/kW6ax4MOj5VIDGlSUxyfDbnU=
+			Z1EdBzxRuMmLGdJBvEGcnzWVFqx+RMFc0Q0wds0w/YU=
 			</data>
 		</dict>
 		<key>ar-ma.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DgPMWhcf9zWpICmf52t60Tj8bQcqIAG3W8wDV7QF2Pw=
+			2OqspQwUzzErNyv1qNuH8+XWZHJEzn2t430kAqKC/2A=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -342,7 +376,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eqn3zd6dMC6qaZUKrBOqnjzUS3H4UQYUgz2rMhxT45A=
+			TiZmf/Ed12OVYOgUY/Nj8YrFJLKLtB6eho16G69JWZY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -379,7 +413,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r44XJ0Fz+8gL+hQyvlIPWEHghZ3mQ7b5VceC8G3rWQs=
+			z7eXlr1hd0CGk4fZrIzqkuiLEaP83kqmFQGPGXppe44=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -409,7 +443,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4bsdiu79cyGx/1ZQJFuTJSbAGcoUf76MXjsLdngdd80=
+			Yq+AEcAo/LczMDWNUz9KQlQt/A4gGD+lCEiH4jUpZMg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -439,7 +473,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jnPNQWo2i7SCq2NeUYAdS8tMniK8BhDrrewxQYuBjnM=
+			t2IlFQbp7FWCfgxZ+bPKhQZJ0eX0niwkeY/if8RoBuc=
 			</data>
 		</dict>
 		<key>vove_cancel.png</key>
@@ -453,14 +487,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tCpZvNEKuiOmw3Knvj5M6eOuY454ACyyOBlmIa4ZGLA=
+			Yl7TSmNsNLt86Q6N/4yFibn/xPKS8tqI5OsBOnVPUTU=
+			</data>
+		</dict>
+		<key>vove_document_address_prof.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tLQIaUkSKLAF7y41CS65cHdpzNsiAC0xJCAbcmpBszA=
+			</data>
+		</dict>
+		<key>vove_document_car_registration.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			s4MvNqa3nsDgaMGupMUhkny67kf68DWBaXlZZaomsNM=
+			</data>
+		</dict>
+		<key>vove_document_driver_license.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0HIyodFbjNGROcB5h2RbzCigEe1S5wXv1uboscjCGw8=
 			</data>
 		</dict>
 		<key>vove_enter_fullscreen.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mb6/WUk5Brv73ZKvwPy2hLCJHUX8g9a/BvFebmqgY/U=
+			EBy831sJn0WmevgtQGN4HJpiV3HAMHSEfpB42UtTLbY=
 			</data>
 		</dict>
 		<key>vove_id_scan_watermark.png</key>
@@ -495,21 +550,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yKMt7fbAvCVsDG8t8j8fec2Z1QNIY9wZUwlq08HNPhc=
+			IzjqS0LJlVVOxHSeoCCh7E/r6C2ojCE3U/z4vjbX5vY=
 			</data>
 		</dict>
 		<key>vove_torch_off.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f1h5Epa5u2IWAyXemOE0uqTEjsQmD6om/azmUoVz/Kw=
+			fGq/PqdCrn9TYxFBg6d2stAywMHJsEoHzpFuxTIRIWg=
 			</data>
 		</dict>
 		<key>vove_torch_on.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BWDOQ49nOw/GWHC99Dc6+qAbnXuByxzHMqwE2P55tR4=
+			ES4LoQvTaA9T3OB7f9XFyPi8Gah6E7r4zcunqWHl5TM=
 			</data>
 		</dict>
 	</dict>

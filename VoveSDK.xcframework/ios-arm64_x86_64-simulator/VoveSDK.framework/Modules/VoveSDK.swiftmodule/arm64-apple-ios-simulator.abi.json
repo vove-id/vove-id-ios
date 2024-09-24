@@ -16,6 +16,16 @@
       },
       {
         "kind": "Import",
+        "name": "FaceTecSDK",
+        "printedName": "FaceTecSDK",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -121,6 +131,26 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FaceTecSDK",
+        "printedName": "FaceTecSDK",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -208,6 +238,30 @@
         "moduleName": "VoveSDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "FaceTecSDK",
+        "printedName": "FaceTecSDK",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "ImplementationOnly"
         ]
       },
       {
@@ -550,6 +604,23 @@
         "declAttributes": [
           "ImplementationOnly"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
       },
       {
         "kind": "Import",
@@ -1066,8 +1137,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "processIDMatching",
-            "printedName": "processIDMatching(environment:sessionToken:completion:)",
+            "name": "start",
+            "printedName": "start(environment:sessionToken:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1114,8 +1185,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7VoveSDK0A0C17processIDMatching11environment12sessionToken10completionyAA0A11EnvironmentO_SSyAA18VerificationResultOSgctFZ",
-            "mangledName": "$s7VoveSDK0A0C17processIDMatching11environment12sessionToken10completionyAA0A11EnvironmentO_SSyAA18VerificationResultOSgctFZ",
+            "usr": "s:7VoveSDK0A0C5start11environment12sessionToken10completionyAA0A11EnvironmentO_SSyAA18VerificationResultOSgctFZ",
+            "mangledName": "$s7VoveSDK0A0C5start11environment12sessionToken10completionyAA0A11EnvironmentO_SSyAA18VerificationResultOSgctFZ",
             "moduleName": "VoveSDK",
             "static": true,
             "declAttributes": [
@@ -1315,9 +1386,156 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/services\/LocalizationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1679,
+      "length": 9,
+      "value": "\"strings\""
+    },
+    {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 170,
+      "offset": 220,
+      "length": 10,
+      "value": "\"LIVENESS\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 13,
+      "value": "\"ID_DOCUMENT\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 293,
+      "length": 17,
+      "value": "\"DRIVING_LICENSE\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 335,
+      "length": 15,
+      "value": "\"ADDRESS_PROOF\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 27,
+      "value": "\"CAR_REGISTRATION_DOCUMENT\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 423,
+      "length": 6,
+      "value": "\"DONE\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 10,
+      "value": "\"LIVENESS\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 13,
+      "value": "\"ID_DOCUMENT\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 293,
+      "length": 17,
+      "value": "\"DRIVING_LICENSE\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 335,
+      "length": 15,
+      "value": "\"ADDRESS_PROOF\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 27,
+      "value": "\"CAR_REGISTRATION_DOCUMENT\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 423,
+      "length": 6,
+      "value": "\"DONE\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 26,
+      "value": "\"DOCUMENT_INFO_MISMATCHED\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 554,
+      "length": 17,
+      "value": "\"MATCH_LEVEL_LOW\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 599,
+      "length": 18,
+      "value": "\"DOCUMENT_EXPIRED\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 653,
+      "length": 28,
+      "value": "\"DOCUMENT_TYPE_NOT_ACCEPTED\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 26,
+      "value": "\"DOCUMENT_INFO_MISMATCHED\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 554,
+      "length": 17,
+      "value": "\"MATCH_LEVEL_LOW\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 599,
+      "length": 18,
+      "value": "\"DOCUMENT_EXPIRED\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 653,
+      "length": 28,
+      "value": "\"DOCUMENT_TYPE_NOT_ACCEPTED\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
       "length": 15,
       "value": "\"VoveSDK.IDScanProcessor\""
     },
@@ -1329,65 +1547,16 @@
       "value": "[\"FaceTec_internal_id_scan_watermark\"]"
     },
     {
-      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 246,
-      "length": 26,
-      "value": "\"DOCUMENT_INFO_MISMATCHED\""
+      "offset": 905,
+      "length": 20,
+      "value": "\"VoveSDK.BaseFaceTecProcessor\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 298,
-      "length": 17,
-      "value": "\"MATCH_LEVEL_LOW\""
-    },
-    {
-      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
-      "kind": "StringLiteral",
-      "offset": 343,
-      "length": 18,
-      "value": "\"DOCUMENT_EXPIRED\""
-    },
-    {
-      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
-      "kind": "StringLiteral",
-      "offset": 397,
-      "length": 28,
-      "value": "\"DOCUMENT_TYPE_NOT_ACCEPTED\""
-    },
-    {
-      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
-      "kind": "StringLiteral",
-      "offset": 246,
-      "length": 26,
-      "value": "\"DOCUMENT_INFO_MISMATCHED\""
-    },
-    {
-      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
-      "kind": "StringLiteral",
-      "offset": 298,
-      "length": 17,
-      "value": "\"MATCH_LEVEL_LOW\""
-    },
-    {
-      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
-      "kind": "StringLiteral",
-      "offset": 343,
-      "length": 18,
-      "value": "\"DOCUMENT_EXPIRED\""
-    },
-    {
-      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
-      "kind": "StringLiteral",
-      "offset": 397,
-      "length": 28,
-      "value": "\"DOCUMENT_TYPE_NOT_ACCEPTED\""
-    },
-    {
-      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
-      "kind": "StringLiteral",
-      "offset": 435,
+      "offset": 185,
       "length": 19,
       "value": "\"VoveSDK.IDMatchingProcessor\""
     },
@@ -1401,84 +1570,84 @@
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1014,
-      "length": 24,
-      "value": "\"https:\/\/api.voveid.org\""
+      "offset": 1038,
+      "length": 17,
+      "value": "\"SANDBOX_API_URL\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1067,
-      "length": 24,
-      "value": "\"https:\/\/api.voveid.net\""
+      "offset": 1071,
+      "length": 16,
+      "value": "\"api.voveid.net\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1123,
-      "length": 24,
-      "value": "\"https:\/\/api.voveid.com\""
+      "offset": 1119,
+      "length": 16,
+      "value": "\"api.voveid.com\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1504,
+      "offset": 1491,
       "length": 30,
       "value": "\"-----BEGIN PUBLIC KEY-----\n\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1545,
+      "offset": 1532,
       "length": 68,
       "value": "\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5PxZ3DLj+zP6T6HFgzzk\n\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1624,
+      "offset": 1611,
       "length": 68,
       "value": "\"M77LdzP3fojBoLasw7EfzvLMnJNUlyRb5m8e5QyyJxI+wRjsALHvFgLzGwxM8ehz\n\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1703,
+      "offset": 1690,
       "length": 68,
       "value": "\"DqqBZed+f4w33GgQXFZOS4AOvyPbALgCYoLehigLAbbCNTkeY5RDcmmSI\/sbp+s6\n\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1782,
+      "offset": 1769,
       "length": 68,
       "value": "\"mAiAKKvCdIqe17bltZ\/rfEoL3gPKEfLXeN549LTj3XBp0hvG4loQ6eC1E1tRzSkf\n\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1861,
+      "offset": 1848,
       "length": 68,
       "value": "\"GJD4GIVvR+j12gXAaftj3ahfYxioBH7F7HQxzmWkwDyn3bqU54eaiB7f0ftsPpWM\n\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1940,
+      "offset": 1927,
       "length": 68,
       "value": "\"ceUaqkL2DZUvgN0efEJjnWy5y1\/Gkq5GGWCROI9XG\/SwXJ30BbVUehTbVcD70+ZF\n\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2019,
+      "offset": 2006,
       "length": 12,
       "value": "\"8QIDAQAB\n\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2042,
+      "offset": 2029,
       "length": 26,
       "value": "\"-----END PUBLIC KEY-----\""
     },
@@ -1497,16 +1666,30 @@
       "value": "\"Summary\""
     },
     {
-      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/views\/Onboarding.swift",
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/viewModels\/OnboardingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 462,
+      "offset": 315,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/viewModels\/OnboardingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 247,
+      "offset": 418,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/viewModels\/OnboardingViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 589,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/viewModels\/OnboardingViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 622,
       "length": 5,
       "value": "false"
     },
@@ -1516,13 +1699,6 @@
       "offset": 1350,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Vove.swift",
-      "kind": "StringLiteral",
-      "offset": 2722,
-      "length": 9,
-      "value": "\"strings\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/controllers\/MainViewController.swift",

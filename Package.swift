@@ -4,12 +4,12 @@ import PackageDescription
 let package = Package(
     name: "VoveSDK",
     platforms: [
-        .iOS(.v13)      // specify your platform and version
+        .iOS(.v13)
     ],
     products: [
         .library(
             name: "VoveSDK",
-            targets: ["VoveSDK"]),
+            targets: ["VoveSDK", "FaceTecSDK"])
     ],
     targets: [
         .binaryTarget(
@@ -17,7 +17,6 @@ let package = Package(
             path: "VoveSDK.xcframework"),
         .binaryTarget(
             name: "FaceTecSDK",
-            path: "FaceTecSDK.xcframework"),
-
+            path: "FaceTecSDK.xcframework")
     ]
 )

@@ -12,6 +12,9 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 
+public struct VoveCustomStyle {
+  public init(primaryColor: SwiftUI.Color, darkPrimaryColor: SwiftUI.Color, backgroundColor: SwiftUI.Color, textColor: SwiftUI.Color, buttonTextColor: SwiftUI.Color)
+}
 public enum VerificationResult {
   case success, failure, pending, canceled
   public static func == (a: VoveSDK.VerificationResult, b: VoveSDK.VerificationResult) -> Swift.Bool
@@ -37,8 +40,11 @@ public enum VoveLocale {
     get
   }
 }
+public struct VoveCustomization {
+}
 @_hasMissingDesignatedInitializers public class Vove {
-  public static func start(environment: VoveSDK.VoveEnvironment, sessionToken: Swift.String, completion: @escaping (VoveSDK.VerificationResult?) -> Swift.Void)
+  public static func start(accessToken: Swift.String, completion: @escaping (VoveSDK.VerificationResult?) -> Swift.Void)
+  public static func initialize(publicKey: Swift.String, environment: VoveSDK.VoveEnvironment, completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
   public static func setVocalGuidanceEnabled(_ isEnabled: Swift.Bool)
   public static func setLocal(local: VoveSDK.VoveLocale)
   public static func getCurrentLocale() -> VoveSDK.VoveLocale?

@@ -60,6 +60,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "FaceTecSDK",
         "printedName": "FaceTecSDK",
         "declKind": "Import",
@@ -72,6 +82,23 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "VoveSDK"
       },
@@ -214,6 +241,81 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "VoveCustomStyle",
+        "printedName": "VoveCustomStyle",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(primaryColor:darkPrimaryColor:backgroundColor:textColor:buttonTextColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VoveCustomStyle",
+                "printedName": "VoveSDK.VoveCustomStyle",
+                "usr": "s:7VoveSDK0A11CustomStyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7VoveSDK0A11CustomStyleV12primaryColor011darkPrimaryF0010backgroundF004textF0010buttonTextF0AC7SwiftUI0F0V_A4Ktcfc",
+            "mangledName": "$s7VoveSDK0A11CustomStyleV12primaryColor011darkPrimaryF0010backgroundF004textF0010buttonTextF0AC7SwiftUI0F0V_A4Ktcfc",
+            "moduleName": "VoveSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7VoveSDK0A11CustomStyleV",
+        "mangledName": "$s7VoveSDK0A11CustomStyleV",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -229,6 +331,23 @@
         "declAttributes": [
           "ImplementationOnly"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
       },
       {
         "kind": "Import",
@@ -1132,24 +1251,30 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "VoveCustomization",
+        "printedName": "VoveCustomization",
+        "declKind": "Struct",
+        "usr": "s:7VoveSDK0A13CustomizationV",
+        "mangledName": "$s7VoveSDK0A13CustomizationV",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "Vove",
         "printedName": "Vove",
         "children": [
           {
             "kind": "Function",
             "name": "start",
-            "printedName": "start(environment:sessionToken:completion:)",
+            "printedName": "start(accessToken:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "VoveEnvironment",
-                "printedName": "VoveSDK.VoveEnvironment",
-                "usr": "s:7VoveSDK0A11EnvironmentO"
               },
               {
                 "kind": "TypeNominal",
@@ -1185,8 +1310,73 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7VoveSDK0A0C5start11environment12sessionToken10completionyAA0A11EnvironmentO_SSyAA18VerificationResultOSgctFZ",
-            "mangledName": "$s7VoveSDK0A0C5start11environment12sessionToken10completionyAA0A11EnvironmentO_SSyAA18VerificationResultOSgctFZ",
+            "usr": "s:7VoveSDK0A0C5start11accessToken10completionySS_yAA18VerificationResultOSgctFZ",
+            "mangledName": "$s7VoveSDK0A0C5start11accessToken10completionySS_yAA18VerificationResultOSgctFZ",
+            "moduleName": "VoveSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(publicKey:environment:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VoveEnvironment",
+                "printedName": "VoveSDK.VoveEnvironment",
+                "usr": "s:7VoveSDK0A11EnvironmentO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7VoveSDK0A0C10initialize9publicKey11environment10completionySS_AA0A11EnvironmentOys6ResultOyyts5Error_pGctFZ",
+            "mangledName": "$s7VoveSDK0A0C10initialize9publicKey11environment10completionySS_AA0A11EnvironmentOys6ResultOyyts5Error_pGctFZ",
             "moduleName": "VoveSDK",
             "static": true,
             "declAttributes": [
@@ -1314,6 +1504,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1352,6 +1552,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -1554,11 +1764,11 @@
       "value": "\"VoveSDK.BaseFaceTecProcessor\""
     },
     {
-      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDMatchingProcessor.swift",
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/LivenessProcessor.swift",
       "kind": "StringLiteral",
       "offset": 185,
-      "length": 19,
-      "value": "\"VoveSDK.IDMatchingProcessor\""
+      "length": 17,
+      "value": "\"VoveSDK.LivenessProcessor\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
@@ -1694,16 +1904,114 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/models\/VerificationCheck.swift",
+      "kind": "StringLiteral",
+      "offset": 265,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/models\/VerificationCheck.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 9,
+      "value": "\"failure\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/models\/VerificationCheck.swift",
+      "kind": "StringLiteral",
+      "offset": 323,
+      "length": 9,
+      "value": "\"pending\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/models\/VerificationCheck.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 10,
+      "value": "\"canceled\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/models\/VerificationCheck.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 6,
+      "value": "\"open\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/models\/VerificationCheck.swift",
+      "kind": "StringLiteral",
+      "offset": 409,
+      "length": 13,
+      "value": "\"in-progress\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/models\/VerificationCheck.swift",
+      "kind": "StringLiteral",
+      "offset": 265,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/models\/VerificationCheck.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 9,
+      "value": "\"failure\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/models\/VerificationCheck.swift",
+      "kind": "StringLiteral",
+      "offset": 323,
+      "length": 9,
+      "value": "\"pending\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/models\/VerificationCheck.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 10,
+      "value": "\"canceled\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/models\/VerificationCheck.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 6,
+      "value": "\"open\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/models\/VerificationCheck.swift",
+      "kind": "StringLiteral",
+      "offset": 409,
+      "length": 13,
+      "value": "\"in-progress\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/helpers\/UIColorExention.swift",
+      "kind": "FloatLiteral",
+      "offset": 1261,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/helpers\/UIColorExention.swift",
+      "kind": "FloatLiteral",
+      "offset": 1380,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Vove.swift",
       "kind": "BooleanLiteral",
-      "offset": 1350,
+      "offset": 1498,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/controllers\/MainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 932,
+      "offset": 1038,
       "length": 2,
       "value": "\"\""
     },
@@ -1717,16 +2025,30 @@
     {
       "filePath": "\/Users\/taitmbarek\/Library\/Developer\/Xcode\/DerivedData\/VoveSDK-bzjleprxrpnicnbwgfaajcfkgggi\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VoveSDK\/IntermediateBuildFilesPath\/VoveSDK.build\/Release-iphoneos\/VoveSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 616,
+      "offset": 627,
+      "length": 14,
+      "value": "\"primaryColor\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/Library\/Developer\/Xcode\/DerivedData\/VoveSDK-bzjleprxrpnicnbwgfaajcfkgggi\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VoveSDK\/IntermediateBuildFilesPath\/VoveSDK.build\/Release-iphoneos\/VoveSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 759,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/taitmbarek\/Library\/Developer\/Xcode\/DerivedData\/VoveSDK-bzjleprxrpnicnbwgfaajcfkgggi\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VoveSDK\/IntermediateBuildFilesPath\/VoveSDK.build\/Release-iphoneos\/VoveSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 845,
+      "offset": 988,
       "length": 6,
-      "value": "\"logo\""
+      "value": "\"Logo\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/Library\/Developer\/Xcode\/DerivedData\/VoveSDK-bzjleprxrpnicnbwgfaajcfkgggi\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VoveSDK\/IntermediateBuildFilesPath\/VoveSDK.build\/Release-iphoneos\/VoveSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1247,
+      "length": 11,
+      "value": "\"waterMark\""
     }
   ]
 }

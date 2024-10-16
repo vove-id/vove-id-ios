@@ -1269,7 +1269,7 @@
           {
             "kind": "Function",
             "name": "start",
-            "printedName": "start(accessToken:completion:)",
+            "printedName": "start(sessionToken:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1310,8 +1310,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7VoveSDK0A0C5start11accessToken10completionySS_yAA18VerificationResultOSgctFZ",
-            "mangledName": "$s7VoveSDK0A0C5start11accessToken10completionySS_yAA18VerificationResultOSgctFZ",
+            "usr": "s:7VoveSDK0A0C5start12sessionToken10completionySS_yAA18VerificationResultOSgctFZ",
+            "mangledName": "$s7VoveSDK0A0C5start12sessionToken10completionySS_yAA18VerificationResultOSgctFZ",
             "moduleName": "VoveSDK",
             "static": true,
             "declAttributes": [

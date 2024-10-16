@@ -43,7 +43,7 @@ public enum VoveLocale {
 public struct VoveCustomization {
 }
 @_hasMissingDesignatedInitializers public class Vove {
-  public static func start(accessToken: Swift.String, completion: @escaping (VoveSDK.VerificationResult?) -> Swift.Void)
+  public static func start(sessionToken: Swift.String, completion: @escaping (VoveSDK.VerificationResult?) -> Swift.Void)
   public static func initialize(publicKey: Swift.String, environment: VoveSDK.VoveEnvironment, completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
   public static func setVocalGuidanceEnabled(_ isEnabled: Swift.Bool)
   public static func setLocal(local: VoveSDK.VoveLocale)

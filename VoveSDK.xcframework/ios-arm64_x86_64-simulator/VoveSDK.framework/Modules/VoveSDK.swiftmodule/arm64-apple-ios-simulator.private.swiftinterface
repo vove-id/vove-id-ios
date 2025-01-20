@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name VoveSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Combine
 import DeveloperToolsSupport
 import Foundation
@@ -13,7 +14,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 
 public struct VoveCustomStyle {
-  public init(primaryColor: SwiftUI.Color, darkPrimaryColor: SwiftUI.Color, backgroundColor: SwiftUI.Color, textColor: SwiftUI.Color, buttonTextColor: SwiftUI.Color)
+  public init(primaryColor: SwiftUICore.Color, darkPrimaryColor: SwiftUICore.Color, backgroundColor: SwiftUICore.Color, textColor: SwiftUICore.Color, buttonTextColor: SwiftUICore.Color)
 }
 public enum VerificationResult {
   case success, failure, pending, canceled
@@ -43,7 +44,7 @@ public enum VoveLocale {
 public struct VoveCustomization {
 }
 @_hasMissingDesignatedInitializers public class Vove {
-  public static func start(sessionToken: Swift.String, completion: @escaping (VoveSDK.VerificationResult?) -> Swift.Void)
+  public static func start(accessToken: Swift.String, completion: @escaping (VoveSDK.VerificationResult?) -> Swift.Void)
   public static func initialize(publicKey: Swift.String, environment: VoveSDK.VoveEnvironment, completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
   public static func setVocalGuidanceEnabled(_ isEnabled: Swift.Bool)
   public static func setLocal(local: VoveSDK.VoveLocale)

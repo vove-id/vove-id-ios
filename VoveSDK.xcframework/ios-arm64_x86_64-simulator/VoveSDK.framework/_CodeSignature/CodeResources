@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		hQnejEnVHmGilOk5CFigP4bIUI0=
+		PLMvEwtcsa7KBMSgNPlDQROkRs4=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RDdvuLcHM+RQpikrykyl1FSWZw4=
+		rh21XeMsQuQ5Urs0hjh02yBTP8I=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		hQnejEnVHmGilOk5CFigP4bIUI0=
+		PLMvEwtcsa7KBMSgNPlDQROkRs4=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		IWe6ZwpoHGHzt8omEe3NCL0g5Ms=
+		MAZ5Euo/LN9N/6BSaBzAmAudSoc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -284,7 +284,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dX7kvRtzEGWGYjmFA8cRqyfNgcHUL2Vzn4Hw4SRL6F4=
+			EMCZrKsqX1aVKMe9wgHJB6QF5egfaICty7OXUi3ax6w=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -312,14 +312,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QEvRhUNU/OUGj/fEBXXNXL94sVffD4blq3SU33UT9kg=
+			idJpqOhyPl8QzjbbCCDwLI+iE0ygwtNabF9qtr8sGvw=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dX7kvRtzEGWGYjmFA8cRqyfNgcHUL2Vzn4Hw4SRL6F4=
+			EMCZrKsqX1aVKMe9wgHJB6QF5egfaICty7OXUi3ax6w=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -347,7 +347,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fkhm/CNoS8qMNbbhrB1/O+F4BsNq8lxyrNnmdDxz7wM=
+			9RZ2xYG4BGgN7MoVvA1S5kiZ1vfu/EKdOPLa3nH14eU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

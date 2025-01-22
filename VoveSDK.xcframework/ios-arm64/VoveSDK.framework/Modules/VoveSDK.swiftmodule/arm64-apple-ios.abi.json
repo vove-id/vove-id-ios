@@ -1766,8 +1766,8 @@
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/helpers\/ImageHider.swift",
       "kind": "Array",
       "offset": 294,
-      "length": 189,
-      "value": "[\"frame = (-54.6667 529.333; 499.333 20.6667); clipsToBounds = YES; opaque = NO; autoresize = RM+BM; userInteractionEnabled = NO; tintColor = UIExtendedSRGBColorSpace 0.733 0.733 0.733 1;\"]"
+      "length": 61,
+      "value": "[\"tintColor = UIExtendedSRGBColorSpace 0.733 0.733 0.733 1;\"]"
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",

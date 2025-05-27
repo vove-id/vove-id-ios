@@ -280,6 +280,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
+@import UIKit;
 #endif
 
 #endif
@@ -308,6 +310,28 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
+@class UITraitCollection;
+@class NSCoder;
+@class NSString;
+@class NSBundle;
+
+/// A view controller that presents the full scan → upload flow for ID documents.
+SWIFT_CLASS("_TtC7VoveSDK22VoveSnapViewController")
+@interface VoveSnapViewController : UIViewController
+- (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+@class UIDocumentPickerViewController;
+@class NSURL;
+
+@interface VoveSnapViewController (SWIFT_EXTENSION(VoveSDK)) <UIDocumentPickerDelegate>
+- (void)documentPicker:(UIDocumentPickerViewController * _Nonnull)controller didPickDocumentsAtURLs:(NSArray<NSURL *> * _Nonnull)urls;
+- (void)documentPickerWasCancelled:(UIDocumentPickerViewController * _Nonnull)controller;
+@end
 
 #endif
 #if __has_attribute(external_source_symbol)
@@ -599,6 +623,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
+@import UIKit;
 #endif
 
 #endif
@@ -627,6 +653,28 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
+@class UITraitCollection;
+@class NSCoder;
+@class NSString;
+@class NSBundle;
+
+/// A view controller that presents the full scan → upload flow for ID documents.
+SWIFT_CLASS("_TtC7VoveSDK22VoveSnapViewController")
+@interface VoveSnapViewController : UIViewController
+- (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+@class UIDocumentPickerViewController;
+@class NSURL;
+
+@interface VoveSnapViewController (SWIFT_EXTENSION(VoveSDK)) <UIDocumentPickerDelegate>
+- (void)documentPicker:(UIDocumentPickerViewController * _Nonnull)controller didPickDocumentsAtURLs:(NSArray<NSURL *> * _Nonnull)urls;
+- (void)documentPickerWasCancelled:(UIDocumentPickerViewController * _Nonnull)controller;
+@end
 
 #endif
 #if __has_attribute(external_source_symbol)

@@ -60,6 +60,37 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1577,6 +1608,2336 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "VisionKit",
+        "printedName": "VisionKit",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UniformTypeIdentifiers",
+        "printedName": "UniformTypeIdentifiers",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VoveSnapViewController",
+        "printedName": "VoveSnapViewController",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Config",
+            "printedName": "Config",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "brandColor",
+                "printedName": "brandColor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV10brandColor7SwiftUI0H0Vvp",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV10brandColor7SwiftUI0H0Vvp",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV10brandColor7SwiftUI0H0Vvg",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV10brandColor7SwiftUI0H0Vvg",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV10brandColor7SwiftUI0H0Vvs",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV10brandColor7SwiftUI0H0Vvs",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV10brandColor7SwiftUI0H0VvM",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV10brandColor7SwiftUI0H0VvM",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accentColor",
+                "printedName": "accentColor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV11accentColor7SwiftUI0H0Vvp",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV11accentColor7SwiftUI0H0Vvp",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV11accentColor7SwiftUI0H0Vvg",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV11accentColor7SwiftUI0H0Vvg",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV11accentColor7SwiftUI0H0Vvs",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV11accentColor7SwiftUI0H0Vvs",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV11accentColor7SwiftUI0H0VvM",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV11accentColor7SwiftUI0H0VvM",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "idleTitle",
+                "printedName": "idleTitle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV9idleTitleSSvp",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV9idleTitleSSvp",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV9idleTitleSSvg",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV9idleTitleSSvg",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV9idleTitleSSvs",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV9idleTitleSSvs",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV9idleTitleSSvM",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV9idleTitleSSvM",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "uploadTitle",
+                "printedName": "uploadTitle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV11uploadTitleSSvp",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV11uploadTitleSSvp",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV11uploadTitleSSvg",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV11uploadTitleSSvg",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV11uploadTitleSSvs",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV11uploadTitleSSvs",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV11uploadTitleSSvM",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV11uploadTitleSSvM",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "previewTitle",
+                "printedName": "previewTitle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV12previewTitleSSvp",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV12previewTitleSSvp",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV12previewTitleSSvg",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV12previewTitleSSvg",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV12previewTitleSSvs",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV12previewTitleSSvs",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV12previewTitleSSvM",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV12previewTitleSSvM",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "showBackCopy",
+                "printedName": "showBackCopy",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV12showBackCopySSvp",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV12showBackCopySSvp",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV12showBackCopySSvg",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV12showBackCopySSvg",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV12showBackCopySSvs",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV12showBackCopySSvs",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV12showBackCopySSvM",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV12showBackCopySSvM",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "idleButton",
+                "printedName": "idleButton",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV10idleButtonSSvp",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV10idleButtonSSvp",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV10idleButtonSSvg",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV10idleButtonSSvg",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV10idleButtonSSvs",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV10idleButtonSSvs",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV10idleButtonSSvM",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV10idleButtonSSvM",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "uploadFileButton",
+                "printedName": "uploadFileButton",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV16uploadFileButtonSSvp",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV16uploadFileButtonSSvp",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV16uploadFileButtonSSvg",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV16uploadFileButtonSSvg",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV16uploadFileButtonSSvs",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV16uploadFileButtonSSvs",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV16uploadFileButtonSSvM",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV16uploadFileButtonSSvM",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "focusHint",
+                "printedName": "focusHint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV9focusHintSSvp",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV9focusHintSSvp",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV9focusHintSSvg",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV9focusHintSSvg",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV9focusHintSSvs",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV9focusHintSSvs",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV9focusHintSSvM",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV9focusHintSSvM",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "retakeButtonText",
+                "printedName": "retakeButtonText",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV16retakeButtonTextSSvp",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV16retakeButtonTextSSvp",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV16retakeButtonTextSSvg",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV16retakeButtonTextSSvg",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV16retakeButtonTextSSvs",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV16retakeButtonTextSSvs",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV16retakeButtonTextSSvM",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV16retakeButtonTextSSvM",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "confirmButtonText",
+                "printedName": "confirmButtonText",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV17confirmButtonTextSSvp",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV17confirmButtonTextSSvp",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV17confirmButtonTextSSvg",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV17confirmButtonTextSSvg",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV17confirmButtonTextSSvs",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV17confirmButtonTextSSvs",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV17confirmButtonTextSSvM",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV17confirmButtonTextSSvM",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "unsupportedDocumentMessage",
+                "printedName": "unsupportedDocumentMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV26unsupportedDocumentMessageSSvp",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV26unsupportedDocumentMessageSSvp",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV26unsupportedDocumentMessageSSvg",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV26unsupportedDocumentMessageSSvg",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV26unsupportedDocumentMessageSSvs",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV26unsupportedDocumentMessageSSvs",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV26unsupportedDocumentMessageSSvM",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV26unsupportedDocumentMessageSSvM",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "retryButtonText",
+                "printedName": "retryButtonText",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV15retryButtonTextSSvp",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV15retryButtonTextSSvp",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV15retryButtonTextSSvg",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV15retryButtonTextSSvg",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV15retryButtonTextSSvs",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV15retryButtonTextSSvs",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV15retryButtonTextSSvM",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV15retryButtonTextSSvM",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "cameraPermissionTitle",
+                "printedName": "cameraPermissionTitle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV21cameraPermissionTitleSSvp",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV21cameraPermissionTitleSSvp",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV21cameraPermissionTitleSSvg",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV21cameraPermissionTitleSSvg",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV21cameraPermissionTitleSSvs",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV21cameraPermissionTitleSSvs",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV21cameraPermissionTitleSSvM",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV21cameraPermissionTitleSSvM",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "cameraPermissionMessage",
+                "printedName": "cameraPermissionMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV23cameraPermissionMessageSSvp",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV23cameraPermissionMessageSSvp",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV23cameraPermissionMessageSSvg",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV23cameraPermissionMessageSSvg",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV23cameraPermissionMessageSSvs",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV23cameraPermissionMessageSSvs",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV23cameraPermissionMessageSSvM",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV23cameraPermissionMessageSSvM",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "cameraPermissionButtonText",
+                "printedName": "cameraPermissionButtonText",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV26cameraPermissionButtonTextSSvp",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV26cameraPermissionButtonTextSSvp",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV26cameraPermissionButtonTextSSvg",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV26cameraPermissionButtonTextSSvg",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV26cameraPermissionButtonTextSSvs",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV26cameraPermissionButtonTextSSvs",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV26cameraPermissionButtonTextSSvM",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV26cameraPermissionButtonTextSSvM",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "requiresBackSide",
+                "printedName": "requiresBackSide",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV16requiresBackSideSbvp",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV16requiresBackSideSbvp",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV16requiresBackSideSbvg",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV16requiresBackSideSbvg",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV16requiresBackSideSbvs",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV16requiresBackSideSbvs",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV16requiresBackSideSbvM",
+                    "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV16requiresBackSideSbvM",
+                    "moduleName": "VoveSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Config",
+                    "printedName": "VoveSDK.VoveSnapViewController.Config",
+                    "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigVAEycfc",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigVAEycfc",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "tintedImage",
+                "printedName": "tintedImage(named:isDarkMode:customStyle:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VoveSDK.VoveCustomStyle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoveCustomStyle",
+                        "printedName": "VoveSDK.VoveCustomStyle",
+                        "usr": "s:7VoveSDK0A11CustomStyleV"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV11tintedImage5named10isDarkMode11customStyleSo7UIImageCSS_SbAA0a6CustomN0VSgtF",
+                "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV11tintedImage5named10isDarkMode11customStyleSo7UIImageCSS_SbAA0a6CustomN0VSgtF",
+                "moduleName": "VoveSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV",
+            "mangledName": "$s7VoveSDK0A18SnapViewControllerC6ConfigV",
+            "moduleName": "VoveSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:uploadFunction:onResult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VoveSnapViewController",
+                "printedName": "VoveSDK.VoveSnapViewController",
+                "usr": "c:@M@VoveSDK@objc(cs)VoveSnapViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Config",
+                "printedName": "VoveSDK.VoveSnapViewController.Config",
+                "hasDefaultArg": true,
+                "usr": "s:7VoveSDK0A18SnapViewControllerC6ConfigV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Data, Swift.String, Swift.String, @escaping (Swift.Double) -> ()) -> Combine.AnyPublisher<Swift.String, any Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyPublisher",
+                    "printedName": "Combine.AnyPublisher<Swift.String, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:7Combine12AnyPublisherV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.Data, Swift.String, Swift.String, (Swift.Double) -> ())",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Double) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.String, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.String, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7VoveSDK0A18SnapViewControllerC6config14uploadFunction8onResultA2C6ConfigV_7Combine12AnyPublisherVySSs5Error_pG10Foundation4DataV_S2SySdctcys0J0OySSsAL_pGctcfc",
+            "mangledName": "$s7VoveSDK0A18SnapViewControllerC6config14uploadFunction8onResultA2C6ConfigV_7Combine12AnyPublisherVySSs5Error_pG10Foundation4DataV_S2SySdctcys0J0OySSsAL_pGctcfc",
+            "moduleName": "VoveSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "traitCollectionDidChange",
+            "printedName": "traitCollectionDidChange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UITraitCollection?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITraitCollection",
+                    "printedName": "UIKit.UITraitCollection",
+                    "usr": "c:objc(cs)UITraitCollection"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VoveSDK@objc(cs)VoveSnapViewController(im)traitCollectionDidChange:",
+            "mangledName": "$s7VoveSDK0A18SnapViewControllerC24traitCollectionDidChangeyySo07UITraitG0CSgF",
+            "moduleName": "VoveSDK",
+            "overriding": true,
+            "objc_name": "traitCollectionDidChange:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VoveSnapViewController",
+                "printedName": "VoveSDK.VoveSnapViewController",
+                "usr": "c:@M@VoveSDK@objc(cs)VoveSnapViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VoveSDK@objc(cs)VoveSnapViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s7VoveSDK0A18SnapViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "VoveSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(customStyle:uploadFunction:onResult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VoveSnapViewController",
+                "printedName": "VoveSDK.VoveSnapViewController",
+                "usr": "c:@M@VoveSDK@objc(cs)VoveSnapViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VoveCustomStyle",
+                "printedName": "VoveSDK.VoveCustomStyle",
+                "usr": "s:7VoveSDK0A11CustomStyleV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Data, Swift.String, Swift.String, @escaping (Swift.Double) -> ()) -> Combine.AnyPublisher<Swift.String, any Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyPublisher",
+                    "printedName": "Combine.AnyPublisher<Swift.String, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:7Combine12AnyPublisherV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.Data, Swift.String, Swift.String, (Swift.Double) -> ())",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Double) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.String, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.String, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7VoveSDK0A18SnapViewControllerC11customStyle14uploadFunction8onResultAcA0a6CustomG0V_7Combine12AnyPublisherVySSs5Error_pG10Foundation4DataV_S2SySdctcys0K0OySSsAL_pGctcfc",
+            "mangledName": "$s7VoveSDK0A18SnapViewControllerC11customStyle14uploadFunction8onResultAcA0a6CustomG0V_7Combine12AnyPublisherVySSs5Error_pG10Foundation4DataV_S2SySdctcys0K0OySSsAL_pGctcfc",
+            "moduleName": "VoveSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Convenience",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "documentPicker",
+            "printedName": "documentPicker(_:didPickDocumentsAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIDocumentPickerViewController",
+                "printedName": "UIKit.UIDocumentPickerViewController",
+                "usr": "c:objc(cs)UIDocumentPickerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.URL]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VoveSDK@objc(cs)VoveSnapViewController(im)documentPicker:didPickDocumentsAtURLs:",
+            "mangledName": "$s7VoveSDK0A18SnapViewControllerC14documentPicker_18didPickDocumentsAtySo010UIDocumentgdE0C_Say10Foundation3URLVGtF",
+            "moduleName": "VoveSDK",
+            "objc_name": "documentPicker:didPickDocumentsAtURLs:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "documentPickerWasCancelled",
+            "printedName": "documentPickerWasCancelled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIDocumentPickerViewController",
+                "printedName": "UIKit.UIDocumentPickerViewController",
+                "usr": "c:objc(cs)UIDocumentPickerViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VoveSDK@objc(cs)VoveSnapViewController(im)documentPickerWasCancelled:",
+            "mangledName": "$s7VoveSDK0A18SnapViewControllerC26documentPickerWasCancelledyySo010UIDocumentgdE0CF",
+            "moduleName": "VoveSDK",
+            "objc_name": "documentPickerWasCancelled:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VoveSDK@objc(cs)VoveSnapViewController",
+        "mangledName": "$s7VoveSDK0A18SnapViewControllerC",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "VoveSDK",
         "declAttributes": [
           "RawDocComment"
@@ -1613,6 +3974,13 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "VoveSDK"
       },
@@ -1640,6 +4008,20 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "VoveSDK"
       },
@@ -1691,6 +4073,13 @@
       "offset": 1679,
       "length": 9,
       "value": "\"strings\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/AddressProofProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1868,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/IDScanProcessor.swift",
@@ -1768,6 +4157,27 @@
       "offset": 294,
       "length": 61,
       "value": "[\"tintColor = UIExtendedSRGBColorSpace 0.733 0.733 0.733 1;\"]"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 418,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 906,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1393,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/Config.swift",
@@ -1884,21 +4294,28 @@
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/viewModels\/OnboardingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 418,
+      "offset": 367,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/viewModels\/OnboardingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 589,
+      "offset": 470,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/viewModels\/OnboardingViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 622,
+      "offset": 641,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/viewModels\/OnboardingViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 674,
       "length": 5,
       "value": "false"
     },
@@ -1966,9 +4383,352 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapUploadView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 320,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1159,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1213,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1262,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1314,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1362,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3331,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3382,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3433,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3482,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3530,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3578,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapUploadView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6988,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapUploadView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7360,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapRootView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4291,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapScannerViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 821,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapScannerViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 869,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapScannerViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1415,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapScannerViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1467,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapScannerViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1971,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapCaptureView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 377,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/SnapCaptureView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 426,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/CameraViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 257,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/CameraViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 406,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/CameraViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 987,
+      "length": 30,
+      "value": "\"com.vove.captureSessionQueue\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/CameraViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1057,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/CameraViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1128,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/CameraViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1282,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/CameraViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1360,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/CameraViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1439,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/CameraViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1523,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/CameraViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1588,
+      "length": 4,
+      "value": "25.0"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/CameraViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1679,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/CameraViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1725,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/VoveSnapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 715,
+      "length": 28,
+      "value": "\"prepare_scan_address_proof\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/VoveSnapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 869,
+      "length": 22,
+      "value": "\"upload_address_proof\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/VoveSnapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1022,
+      "length": 17,
+      "value": "\"review_document\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/VoveSnapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1193,
+      "length": 20,
+      "value": "\"show_document_back\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/VoveSnapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1339,
+      "length": 17,
+      "value": "\"continue_button\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/VoveSnapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1495,
+      "length": 20,
+      "value": "\"upload_from_device\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/VoveSnapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1642,
+      "length": 14,
+      "value": "\"tap_to_focus\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/VoveSnapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1799,
+      "length": 8,
+      "value": "\"retake\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/VoveSnapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1952,
+      "length": 9,
+      "value": "\"confirm\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/VoveSnapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2119,
+      "length": 27,
+      "value": "\"unsupported_document_type\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/VoveSnapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2273,
+      "length": 11,
+      "value": "\"try_again\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/VoveSnapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2428,
+      "length": 15,
+      "value": "\"enable_camera\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/VoveSnapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2591,
+      "length": 22,
+      "value": "\"please_enable_camera\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/VoveSnapViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2768,
+      "length": 22,
+      "value": "\"enable_camera_button\""
+    },
+    {
+      "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/VoveSnap\/VoveSnapViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2920,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/taitmbarek\/WebstormProjects\/@vove\/VoveSDK\/VoveSDK\/controllers\/MainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1038,
+      "offset": 1053,
       "length": 2,
       "value": "\"\""
     },

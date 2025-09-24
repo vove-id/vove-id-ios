@@ -249,6 +249,58 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "Config",
+        "printedName": "Config",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setInternalEnvironment",
+            "printedName": "setInternalEnvironment(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7VoveSDK6ConfigC22setInternalEnvironmentyySSSgFZ",
+            "mangledName": "$s7VoveSDK6ConfigC22setInternalEnvironmentyySSSgFZ",
+            "moduleName": "VoveSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7VoveSDK6ConfigC",
+        "mangledName": "$s7VoveSDK6ConfigC",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -440,6 +492,168 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "VerificationPayload",
+        "printedName": "VerificationPayload",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "result",
+            "printedName": "result",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VerificationResult",
+                "printedName": "VoveSDK.VerificationResult",
+                "usr": "s:7VoveSDK18VerificationResultO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7VoveSDK19VerificationPayloadV6resultAA0C6ResultOvp",
+            "mangledName": "$s7VoveSDK19VerificationPayloadV6resultAA0C6ResultOvp",
+            "moduleName": "VoveSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerificationResult",
+                    "printedName": "VoveSDK.VerificationResult",
+                    "usr": "s:7VoveSDK18VerificationResultO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7VoveSDK19VerificationPayloadV6resultAA0C6ResultOvg",
+                "mangledName": "$s7VoveSDK19VerificationPayloadV6resultAA0C6ResultOvg",
+                "moduleName": "VoveSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nextStep",
+            "printedName": "nextStep",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7VoveSDK19VerificationPayloadV8nextStepSSSgvp",
+            "mangledName": "$s7VoveSDK19VerificationPayloadV8nextStepSSSgvp",
+            "moduleName": "VoveSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7VoveSDK19VerificationPayloadV8nextStepSSSgvg",
+                "mangledName": "$s7VoveSDK19VerificationPayloadV8nextStepSSSgvg",
+                "moduleName": "VoveSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(result:nextStep:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VerificationPayload",
+                "printedName": "VoveSDK.VerificationPayload",
+                "usr": "s:7VoveSDK19VerificationPayloadV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VerificationResult",
+                "printedName": "VoveSDK.VerificationResult",
+                "usr": "s:7VoveSDK18VerificationResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7VoveSDK19VerificationPayloadV6result8nextStepAcA0C6ResultO_SSSgtcfc",
+            "mangledName": "$s7VoveSDK19VerificationPayloadV6result8nextStepAcA0C6ResultO_SSSgtcfc",
+            "moduleName": "VoveSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7VoveSDK19VerificationPayloadV",
+        "mangledName": "$s7VoveSDK19VerificationPayloadV",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "VerificationResult",
         "printedName": "VerificationResult",
         "children": [
@@ -626,6 +840,43 @@
             "declKind": "EnumElement",
             "usr": "s:7VoveSDK18VerificationResultO11maxAttemptsyA2CmF",
             "mangledName": "$s7VoveSDK18VerificationResultO11maxAttemptsyA2CmF",
+            "moduleName": "VoveSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "inProgress",
+            "printedName": "inProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VoveSDK.VerificationResult.Type) -> VoveSDK.VerificationResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerificationResult",
+                    "printedName": "VoveSDK.VerificationResult",
+                    "usr": "s:7VoveSDK18VerificationResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VoveSDK.VerificationResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerificationResult",
+                        "printedName": "VoveSDK.VerificationResult",
+                        "usr": "s:7VoveSDK18VerificationResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7VoveSDK18VerificationResultO10inProgressyA2CmF",
+            "mangledName": "$s7VoveSDK18VerificationResultO10inProgressyA2CmF",
             "moduleName": "VoveSDK"
           },
           {
@@ -1375,6 +1626,251 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "VoveStartConfiguration",
+        "printedName": "VoveStartConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "showUI",
+            "printedName": "showUI",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7VoveSDK0A18StartConfigurationV6showUISbvp",
+            "mangledName": "$s7VoveSDK0A18StartConfigurationV6showUISbvp",
+            "moduleName": "VoveSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7VoveSDK0A18StartConfigurationV6showUISbvg",
+                "mangledName": "$s7VoveSDK0A18StartConfigurationV6showUISbvg",
+                "moduleName": "VoveSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxAttemptsActionCallback",
+            "printedName": "maxAttemptsActionCallback",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7VoveSDK0A18StartConfigurationV25maxAttemptsActionCallbackyycSgvp",
+            "mangledName": "$s7VoveSDK0A18StartConfigurationV25maxAttemptsActionCallbackyycSgvp",
+            "moduleName": "VoveSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7VoveSDK0A18StartConfigurationV25maxAttemptsActionCallbackyycSgvg",
+                "mangledName": "$s7VoveSDK0A18StartConfigurationV25maxAttemptsActionCallbackyycSgvg",
+                "moduleName": "VoveSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "exitAfterEachStep",
+            "printedName": "exitAfterEachStep",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7VoveSDK0A18StartConfigurationV17exitAfterEachStepSbvp",
+            "mangledName": "$s7VoveSDK0A18StartConfigurationV17exitAfterEachStepSbvp",
+            "moduleName": "VoveSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7VoveSDK0A18StartConfigurationV17exitAfterEachStepSbvg",
+                "mangledName": "$s7VoveSDK0A18StartConfigurationV17exitAfterEachStepSbvg",
+                "moduleName": "VoveSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(showUI:maxAttemptsActionCallback:exitAfterEachStep:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VoveStartConfiguration",
+                "printedName": "VoveSDK.VoveStartConfiguration",
+                "usr": "s:7VoveSDK0A18StartConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7VoveSDK0A18StartConfigurationV6showUI25maxAttemptsActionCallback17exitAfterEachStepACSb_yycSgSbtcfc",
+            "mangledName": "$s7VoveSDK0A18StartConfigurationV6showUI25maxAttemptsActionCallback17exitAfterEachStepACSb_yycSgSbtcfc",
+            "moduleName": "VoveSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7VoveSDK0A18StartConfigurationV",
+        "mangledName": "$s7VoveSDK0A18StartConfigurationV",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "Vove",
         "printedName": "Vove",
         "children": [
@@ -1459,9 +1955,72 @@
             "mangledName": "$s7VoveSDK0A0C5start12sessionToken6showUI10completion25maxAttemptsActionCallbackySS_SbyAA18VerificationResultOSgcyycSgtFZ",
             "moduleName": "VoveSDK",
             "static": true,
+            "deprecated": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(sessionToken:configuration:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VoveStartConfiguration",
+                "printedName": "VoveSDK.VoveStartConfiguration",
+                "usr": "s:7VoveSDK0A18StartConfigurationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VoveSDK.VerificationPayload?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VoveSDK.VerificationPayload?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerificationPayload",
+                        "printedName": "VoveSDK.VerificationPayload",
+                        "usr": "s:7VoveSDK19VerificationPayloadV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7VoveSDK0A0C5start12sessionToken13configuration10completionySS_AA0A18StartConfigurationVyAA19VerificationPayloadVSgctFZ",
+            "mangledName": "$s7VoveSDK0A0C5start12sessionToken13configuration10completionySS_AA0A18StartConfigurationVyAA19VerificationPayloadVSgctFZ",
+            "moduleName": "VoveSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1527,6 +2086,91 @@
             "declAttributes": [
               "Final",
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeInternal",
+            "printedName": "initializeInternal(publicKey:environment:internalEnvironment:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VoveEnvironment",
+                "printedName": "VoveSDK.VoveEnvironment",
+                "usr": "s:7VoveSDK0A11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7VoveSDK0A0C18initializeInternal9publicKey11environment19internalEnvironment10completionySS_AA0aI0OSSSgys6ResultOyyts5Error_pGctFZ",
+            "mangledName": "$s7VoveSDK0A0C18initializeInternal9publicKey11environment19internalEnvironment10completionySS_AA0aI0OSSSgys6ResultOyyts5Error_pGctFZ",
+            "moduleName": "VoveSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "SPIAccessControl",
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "VoveExampleApp"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4708,336 +5352,336 @@
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10282,
+      "offset": 10078,
       "length": 46,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10301,
+      "offset": 10097,
       "length": 1,
       "value": "\"\/v2\/sessions\/address-proof\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10381,
+      "offset": 10177,
       "length": 9,
       "value": "\"VoveSDK\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 10398,
+      "offset": 10194,
       "length": 3,
       "value": "102"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10441,
+      "offset": 10237,
       "length": 13,
       "value": "\"Invalid URL\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10672,
+      "offset": 10468,
       "length": 31,
       "value": "\"Boundary-\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10702,
+      "offset": 10498,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10797,
+      "offset": 10593,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10833,
+      "offset": 10629,
       "length": 43,
       "value": "\"multipart\/form-data; boundary=\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10875,
+      "offset": 10671,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10898,
+      "offset": 10694,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 11086,
+      "offset": 10882,
       "length": 9,
       "value": "\"VoveSDK\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 11103,
+      "offset": 10899,
       "length": 3,
       "value": "103"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 11146,
+      "offset": 10942,
       "length": 32,
       "value": "\"Authorization token is not set\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 11348,
+      "offset": 11144,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 11500,
+      "offset": 11296,
       "length": 12,
       "value": "\"User-Agent\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 11664,
+      "offset": 11460,
       "length": 19,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 11678,
+      "offset": 11474,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 11729,
+      "offset": 11525,
       "length": 93,
       "value": "\"Content-Disposition: form-data; name=\"addressProof\"; filename=\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 11815,
+      "offset": 11611,
       "length": 1,
       "value": "\"\"\r\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 11868,
+      "offset": 11664,
       "length": 35,
       "value": "\"Content-Type: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 11894,
+      "offset": 11690,
       "length": 1,
       "value": "\"\r\n\r\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 11983,
+      "offset": 11779,
       "length": 6,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 12035,
+      "offset": 11831,
       "length": 21,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 12049,
+      "offset": 11845,
       "length": 2,
       "value": "\"--\r\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 12696,
+      "offset": 12492,
       "length": 8,
       "value": "\"failed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 13018,
+      "offset": 12814,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 13052,
+      "offset": 12848,
       "length": 3,
       "value": "201"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 13128,
+      "offset": 12924,
       "length": 16,
       "value": "\"DOCUMENT_ERROR\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 13337,
+      "offset": 13133,
       "length": 8,
       "value": "\"failed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 13413,
+      "offset": 13209,
       "length": 16,
       "value": "\"DOCUMENT_ERROR\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "Array",
-      "offset": 13734,
+      "offset": 13530,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 13892,
+      "offset": 13688,
       "length": 10,
       "value": "\"flowStep\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 14339,
+      "offset": 14135,
       "length": 20,
       "value": "\"verificationStatus\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 14435,
+      "offset": 14231,
       "length": 14,
       "value": "\"max-attempts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 14761,
+      "offset": 14557,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 14860,
+      "offset": 14656,
       "length": 5,
       "value": "100.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 15429,
+      "offset": 15225,
       "length": 13,
       "value": "\"retryReason\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 15507,
+      "offset": 15303,
       "length": 28,
       "value": "\"DOCUMENT_TYPE_NOT_ACCEPTED\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 15686,
+      "offset": 15482,
       "length": 28,
       "value": "\"DOCUMENT_TYPE_NOT_ACCEPTED\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 15848,
+      "offset": 15644,
       "length": 18,
       "value": "\"DOCUMENT_EXPIRED\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 16020,
+      "offset": 15816,
       "length": 18,
       "value": "\"DOCUMENT_EXPIRED\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 16624,
+      "offset": 16420,
       "length": 9,
       "value": "\"VoveSDK\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 16670,
+      "offset": 16466,
       "length": 3,
       "value": "104"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 16742,
+      "offset": 16538,
       "length": 64,
       "value": "\"Failed to parse server response: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 16805,
+      "offset": 16601,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 17866,
+      "offset": 17662,
       "length": 5,
       "value": "100.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/AddressProofProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 18068,
+      "offset": 17864,
       "length": 5,
       "value": "100.0"
     },
@@ -5737,469 +6381,469 @@
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 3926,
+      "offset": 3746,
       "length": 27,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 3952,
+      "offset": 3772,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 4141,
+      "offset": 3961,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 4173,
+      "offset": 3993,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 4213,
+      "offset": 4033,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 4322,
+      "offset": 4142,
       "length": 12,
       "value": "\"User-Agent\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "Array",
-      "offset": 4445,
+      "offset": 4265,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 4525,
+      "offset": 4345,
       "length": 27,
       "value": "\"base_processor_json_error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "Dictionary",
-      "offset": 4566,
+      "offset": 4386,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 4678,
+      "offset": 4498,
       "length": 14,
       "value": "\"X-Device-Key\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 4795,
+      "offset": 4615,
       "length": 14,
       "value": "\"X-User-Agent\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 4889,
+      "offset": 4709,
       "length": 34,
       "value": "\"Authentication token is not set.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 4983,
+      "offset": 4803,
       "length": 25,
       "value": "\"base_processor_no_token\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "Dictionary",
-      "offset": 5022,
+      "offset": 4842,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 5112,
+      "offset": 4932,
       "length": 15,
       "value": "\"authorization\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 5400,
+      "offset": 5220,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "Array",
-      "offset": 5560,
+      "offset": 5380,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 5921,
+      "offset": 5741,
       "length": 30,
       "value": "\"base_processor_request_error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 5966,
+      "offset": 5786,
       "length": 18,
       "value": "\"verificationStep\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 6025,
+      "offset": 5845,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 6086,
+      "offset": 5906,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "Array",
-      "offset": 6264,
+      "offset": 6084,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 6409,
+      "offset": 6229,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 6546,
+      "offset": 6366,
       "length": 30,
       "value": "\"base_processor_parsing_error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 6591,
+      "offset": 6411,
       "length": 18,
       "value": "\"verificationStep\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 6650,
+      "offset": 6470,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 6711,
+      "offset": 6531,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 7022,
+      "offset": 6842,
       "length": 10,
       "value": "\"flowStep\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 7137,
+      "offset": 6957,
       "length": 20,
       "value": "\"verificationStatus\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 7216,
+      "offset": 7036,
       "length": 16,
       "value": "\"scanResultBlob\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 7305,
+      "offset": 7125,
       "length": 30,
       "value": "\"base_processor_json_response\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 7367,
+      "offset": 7187,
       "length": 20,
       "value": "\"verificationStatus\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 7425,
+      "offset": 7245,
       "length": 18,
       "value": "\"verificationStep\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 7445,
+      "offset": 7265,
       "length": 43,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 7487,
+      "offset": 7307,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 8170,
+      "offset": 7990,
       "length": 13,
       "value": "\"retryReason\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 8297,
+      "offset": 8117,
       "length": 30,
       "value": "\"base_processor_handle_status\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 8342,
+      "offset": 8162,
       "length": 20,
       "value": "\"verificationReason\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 8364,
+      "offset": 8184,
       "length": 44,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 8392,
+      "offset": 8212,
       "length": 14,
       "value": "\"no_raw_value\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 8407,
+      "offset": 8227,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 8555,
+      "offset": 8375,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 8900,
+      "offset": 8720,
       "length": 14,
       "value": "\"wasProcessed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 8971,
+      "offset": 8791,
       "length": 16,
       "value": "\"scanResultBlob\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 9046,
+      "offset": 8866,
       "length": 13,
       "value": "\"retryReason\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 9313,
+      "offset": 9133,
       "length": 35,
       "value": "\"base_processor_processed_response\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 9380,
+      "offset": 9200,
       "length": 18,
       "value": "\"verificationStep\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 9479,
+      "offset": 9299,
       "length": 14,
       "value": "\"retry_reason\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 9495,
+      "offset": 9315,
       "length": 36,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 9530,
+      "offset": 9350,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 9744,
+      "offset": 9564,
       "length": 13,
       "value": "\"in-progress\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 9882,
+      "offset": 9702,
       "length": 30,
       "value": "\"base_processor_handle_result\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 9940,
+      "offset": 9760,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10056,
+      "offset": 9876,
       "length": 12,
       "value": "\"successful\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10103,
+      "offset": 9923,
       "length": 11,
       "value": "\"suspected\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10116,
+      "offset": 9936,
       "length": 8,
       "value": "\"failed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10159,
+      "offset": 9979,
       "length": 9,
       "value": "\"caution\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10170,
+      "offset": 9990,
       "length": 9,
       "value": "\"pending\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10214,
+      "offset": 10034,
       "length": 6,
       "value": "\"open\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10252,
+      "offset": 10072,
       "length": 14,
       "value": "\"max-attempts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10599,
+      "offset": 10419,
       "length": 65,
       "value": "\"FaceTec_result_idscan_retry_ocr_results_not_good_enough_message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10695,
+      "offset": 10515,
       "length": 46,
       "value": "\"FaceTec_result_idscan_retry_document_expired\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10875,
+      "offset": 10695,
       "length": 65,
       "value": "\"FaceTec_result_idscan_retry_ocr_results_not_good_enough_message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 10971,
+      "offset": 10791,
       "length": 59,
       "value": "\"FaceTec_result_idscan_retry_id_type_not_supported_message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 11142,
+      "offset": 10962,
       "length": 65,
       "value": "\"FaceTec_result_idscan_retry_ocr_results_not_good_enough_message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 11238,
+      "offset": 11058,
       "length": 45,
       "value": "\"FaceTec_result_idscan_default_error_message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Processors\/BaseFaceTecProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 11670,
+      "offset": 11490,
       "length": 5,
       "value": "100.0"
     },
@@ -6381,91 +7025,133 @@
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 512,
+      "offset": 519,
       "length": 34,
       "value": "\"dtjOjveCLSwGATerxaIfUPRQWdEueBZu\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1038,
-      "length": 17,
-      "value": "\"SANDBOX_API_URL\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 1071,
+      "offset": 1017,
       "length": 16,
       "value": "\"api.voveid.net\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1119,
+      "offset": 1065,
       "length": 16,
       "value": "\"api.voveid.com\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1491,
+      "offset": 1183,
+      "length": 16,
+      "value": "\"api.voveid.org\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 1225,
+      "length": 21,
+      "value": "\"beta-api.voveid.org\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 1743,
+      "length": 61,
+      "value": "\"internalEnvironmentOverride: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 1803,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 2003,
+      "length": 13,
+      "value": "\"development\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 2018,
+      "length": 5,
+      "value": "\"dev\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 2080,
+      "length": 6,
+      "value": "\"beta\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 2784,
       "length": 30,
       "value": "\"-----BEGIN PUBLIC KEY-----\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1532,
+      "offset": 2825,
       "length": 68,
       "value": "\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5PxZ3DLj+zP6T6HFgzzk\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1611,
+      "offset": 2904,
       "length": 68,
       "value": "\"M77LdzP3fojBoLasw7EfzvLMnJNUlyRb5m8e5QyyJxI+wRjsALHvFgLzGwxM8ehz\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1690,
+      "offset": 2983,
       "length": 68,
       "value": "\"DqqBZed+f4w33GgQXFZOS4AOvyPbALgCYoLehigLAbbCNTkeY5RDcmmSI\/sbp+s6\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1769,
+      "offset": 3062,
       "length": 68,
       "value": "\"mAiAKKvCdIqe17bltZ\/rfEoL3gPKEfLXeN549LTj3XBp0hvG4loQ6eC1E1tRzSkf\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1848,
+      "offset": 3141,
       "length": 68,
       "value": "\"GJD4GIVvR+j12gXAaftj3ahfYxioBH7F7HQxzmWkwDyn3bqU54eaiB7f0ftsPpWM\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1927,
+      "offset": 3220,
       "length": 68,
       "value": "\"ceUaqkL2DZUvgN0efEJjnWy5y1\/Gkq5GGWCROI9XG\/SwXJ30BbVUehTbVcD70+ZF\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2006,
+      "offset": 3299,
       "length": 12,
       "value": "\"8QIDAQAB\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2029,
+      "offset": 3322,
       "length": 26,
       "value": "\"-----END PUBLIC KEY-----\""
     },
@@ -6584,70 +7270,70 @@
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Summary.swift",
       "kind": "IntegerLiteral",
-      "offset": 5669,
+      "offset": 5746,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Summary.swift",
       "kind": "IntegerLiteral",
-      "offset": 5717,
+      "offset": 5794,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Summary.swift",
       "kind": "IntegerLiteral",
-      "offset": 5752,
+      "offset": 5829,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Summary.swift",
       "kind": "StringLiteral",
-      "offset": 5833,
+      "offset": 5910,
       "length": 13,
       "value": "\"Vove_finish\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Summary.swift",
       "kind": "StringLiteral",
-      "offset": 6700,
+      "offset": 6858,
       "length": 13,
       "value": "\"vove_cancel\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Summary.swift",
       "kind": "IntegerLiteral",
-      "offset": 6894,
+      "offset": 7052,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Summary.swift",
       "kind": "IntegerLiteral",
-      "offset": 6906,
+      "offset": 7064,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Summary.swift",
       "kind": "IntegerLiteral",
-      "offset": 6980,
+      "offset": 7138,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Summary.swift",
       "kind": "IntegerLiteral",
-      "offset": 7023,
+      "offset": 7181,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Summary.swift",
       "kind": "StringLiteral",
-      "offset": 7250,
+      "offset": 7408,
       "length": 14,
       "value": "\"summary_page\""
     },
@@ -6663,7 +7349,7 @@
       "kind": "IntegerLiteral",
       "offset": 287,
       "length": 3,
-      "value": "171"
+      "value": "173"
     },
     {
       "filePath": "@__swiftmacro_7VoveSDK33_C0D060BB531191AC15438C747B6CA987Ll7PreviewfMf_.swift",
@@ -6717,413 +7403,413 @@
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 1672,
+      "offset": 1701,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 1860,
+      "offset": 1889,
       "length": 25,
       "value": "\"Vove_verification_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 2144,
+      "offset": 2173,
       "length": 24,
       "value": "\"Vove_how_much_it_takes\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 2225,
+      "offset": 2254,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 2634,
+      "offset": 2663,
       "length": 26,
       "value": "\"Vove_present_instruction\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 2713,
+      "offset": 2742,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 2951,
+      "offset": 2980,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 3074,
+      "offset": 3103,
       "length": 31,
       "value": "\"Vove_gov_id_instruction_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 3160,
+      "offset": 3189,
       "length": 25,
       "value": "\"Vove_gov_id_instruction\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 3392,
+      "offset": 3421,
       "length": 38,
       "value": "\"Vove_good_lighting_instruction_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 3485,
+      "offset": 3514,
       "length": 32,
       "value": "\"Vove_good_lighting_instruction\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 3724,
+      "offset": 3753,
       "length": 37,
       "value": "\"Vove_clear_selfie_instruction_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 3816,
+      "offset": 3845,
       "length": 31,
       "value": "\"Vove_clear_selfie_instruction\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 4308,
+      "offset": 4337,
       "length": 25,
       "value": "\"Vove_privacy_disclaimer\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 4452,
+      "offset": 4481,
       "length": 19,
       "value": "\"Vove_privacy_link\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 4486,
+      "offset": 4515,
       "length": 32,
       "value": "\"https:\/\/www.voveid.com\/privacy\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 4598,
+      "offset": 4627,
       "length": 28,
       "value": "\"Vove_terms_conditions_link\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 4641,
+      "offset": 4670,
       "length": 30,
       "value": "\"https:\/\/www.voveid.com\/terms\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 4826,
+      "offset": 4855,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 4841,
+      "offset": 4870,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 5463,
+      "offset": 5492,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 5519,
+      "offset": 5548,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 5554,
+      "offset": 5583,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 5639,
+      "offset": 5668,
       "length": 14,
       "value": "\"Vove_lets_go\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 6085,
+      "offset": 6114,
       "length": 17,
       "value": "\"onboarding_page\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "BooleanLiteral",
-      "offset": 6306,
+      "offset": 6335,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "BooleanLiteral",
-      "offset": 6439,
+      "offset": 6468,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 6834,
+      "offset": 6863,
       "length": 14,
       "value": "\"chevron.left\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 6905,
+      "offset": 6934,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 7102,
+      "offset": 7131,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 7107,
+      "offset": 7136,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 7113,
+      "offset": 7142,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 7410,
+      "offset": 7439,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "FloatLiteral",
-      "offset": 7437,
+      "offset": 7466,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "FloatLiteral",
-      "offset": 7455,
+      "offset": 7484,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "FloatLiteral",
-      "offset": 7473,
+      "offset": 7502,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "FloatLiteral",
-      "offset": 7491,
+      "offset": 7520,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 7607,
+      "offset": 7636,
       "length": 10,
       "value": "0xFF000000"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 7622,
+      "offset": 7651,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 7628,
+      "offset": 7657,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 7669,
+      "offset": 7698,
       "length": 10,
       "value": "0x00FF0000"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 7684,
+      "offset": 7713,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 7690,
+      "offset": 7719,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 7731,
+      "offset": 7760,
       "length": 10,
       "value": "0x0000FF00"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 7746,
+      "offset": 7775,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 7751,
+      "offset": 7780,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 7791,
+      "offset": 7820,
       "length": 10,
       "value": "0x000000FF"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 7805,
+      "offset": 7834,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "BooleanLiteral",
-      "offset": 8255,
+      "offset": 8284,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 9046,
+      "offset": 9075,
       "length": 12,
       "value": "\"CustomLink\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "BooleanLiteral",
-      "offset": 9068,
+      "offset": 9097,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 9372,
+      "offset": 9401,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 9566,
+      "offset": 9595,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 9660,
+      "offset": 9689,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 10337,
+      "offset": 10366,
       "length": 23,
       "value": "\"checkmark.circle.fill\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 10508,
+      "offset": 10537,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "StringLiteral",
-      "offset": 10536,
+      "offset": 10565,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 10590,
+      "offset": 10619,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/views\/Onboarding.swift",
       "kind": "IntegerLiteral",
-      "offset": 10639,
+      "offset": 10668,
       "length": 2,
       "value": "48"
     },
@@ -7291,217 +7977,217 @@
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 278,
+      "offset": 801,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 307,
+      "offset": 830,
       "length": 9,
       "value": "\"failure\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 336,
+      "offset": 859,
       "length": 9,
       "value": "\"pending\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 366,
+      "offset": 889,
       "length": 10,
       "value": "\"canceled\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 393,
+      "offset": 916,
       "length": 6,
       "value": "\"open\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 422,
+      "offset": 945,
       "length": 13,
       "value": "\"in-progress\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 459,
+      "offset": 982,
       "length": 14,
       "value": "\"max-attempts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 565,
+      "offset": 1088,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 609,
+      "offset": 1132,
       "length": 9,
       "value": "\"failure\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 653,
+      "offset": 1176,
       "length": 9,
       "value": "\"pending\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 697,
+      "offset": 1220,
       "length": 10,
       "value": "\"canceled\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 743,
+      "offset": 1266,
       "length": 6,
       "value": "\"open\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 781,
+      "offset": 1304,
       "length": 13,
       "value": "\"in-progress\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 832,
+      "offset": 1355,
       "length": 14,
       "value": "\"max-attempts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 1205,
+      "offset": 1728,
       "length": 15,
       "value": "\"Vove_verified\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 1276,
+      "offset": 1799,
       "length": 13,
       "value": "\"Vove_failed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 1326,
+      "offset": 1849,
       "length": 14,
       "value": "\"Vove_pending\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 1440,
+      "offset": 1963,
       "length": 51,
       "value": "\"Vove_your_identity_has_been_successfully_verified\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 1533,
+      "offset": 2056,
       "length": 57,
       "value": "\"Vove_your_identity_verification_failed_please_try_again\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 1625,
+      "offset": 2148,
       "length": 90,
       "value": "\"Vove_you_have_reached_the_maximum_number_of_verification_attempts_please_contact_support\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 1740,
+      "offset": 2263,
       "length": 84,
       "value": "\"Vove_your_identity_verification_is_pending_please_wait_for_the_process_to_complete\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 1921,
+      "offset": 2444,
       "length": 23,
       "value": "\"checkmark.circle.fill\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 2000,
+      "offset": 2523,
       "length": 15,
       "value": "\"x.circle.fill\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 2040,
+      "offset": 2563,
       "length": 29,
       "value": "\"exclamationmark.circle.fill\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 278,
+      "offset": 801,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 307,
+      "offset": 830,
       "length": 9,
       "value": "\"failure\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 336,
+      "offset": 859,
       "length": 9,
       "value": "\"pending\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 366,
+      "offset": 889,
       "length": 10,
       "value": "\"canceled\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 393,
+      "offset": 916,
       "length": 6,
       "value": "\"open\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 422,
+      "offset": 945,
       "length": 13,
       "value": "\"in-progress\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/models\/VerificationCheck.swift",
       "kind": "StringLiteral",
-      "offset": 459,
+      "offset": 982,
       "length": 14,
       "value": "\"max-attempts\""
     },
@@ -8292,343 +8978,392 @@
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "BooleanLiteral",
-      "offset": 1645,
+      "offset": 1769,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1849,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "BooleanLiteral",
-      "offset": 2101,
+      "offset": 2088,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2527,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2778,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 3077,
+      "offset": 3217,
       "length": 7,
       "value": "\"refId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 3155,
+      "offset": 3295,
       "length": 7,
       "value": "\"refId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 3275,
+      "offset": 3415,
       "length": 30,
       "value": "\"vove_start_failed_jwt_decode\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "Dictionary",
-      "offset": 3319,
+      "offset": 3459,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 3342,
+      "offset": 3482,
       "length": 22,
       "value": "\"Failed to decode JWT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 3664,
+      "offset": 4813,
       "length": 24,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 3687,
+      "offset": 4836,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 4244,
+      "offset": 5566,
       "length": 28,
       "value": "\"direct_flow_session_failed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 4287,
+      "offset": 5609,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "BooleanLiteral",
-      "offset": 5081,
+      "offset": 7506,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "BooleanLiteral",
-      "offset": 6048,
+      "offset": 8494,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "BooleanLiteral",
-      "offset": 6115,
+      "offset": 8561,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "BooleanLiteral",
-      "offset": 6459,
+      "offset": 8915,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "BooleanLiteral",
-      "offset": 7549,
+      "offset": 10025,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 7882,
+      "offset": 10358,
       "length": 49,
       "value": "\"phc_FNvMmFXZDTsi2MsnPxmWnnrQhCNyk795aKNPZOm1rCq\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 7975,
+      "offset": 10451,
       "length": 49,
       "value": "\"phc_VlViDb2X5rIHNqwzkzvOnKnBY35kMonNQu16EHA2PXl\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 8132,
+      "offset": 10608,
       "length": 26,
       "value": "\"https:\/\/eu.i.posthog.com\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 8227,
+      "offset": 10703,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 8239,
+      "offset": 10715,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 8594,
+      "offset": 11070,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 8616,
+      "offset": 11092,
       "length": 14,
       "value": "\"primaryColor\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 8729,
+      "offset": 11205,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 8751,
+      "offset": 11227,
       "length": 14,
       "value": "\"primaryColor\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 9257,
+      "offset": 11733,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "BooleanLiteral",
-      "offset": 9568,
+      "offset": 12044,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "BooleanLiteral",
-      "offset": 9799,
+      "offset": 12275,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 10348,
+      "offset": 12824,
       "length": 28,
       "value": "\"vove_init_failed_fetch_org\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 10391,
+      "offset": 12867,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 10756,
-      "length": 15,
-      "value": "\"Vove-\""
+      "offset": 13515,
+      "length": 46,
+      "value": "\"Setting internal environment: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 10770,
-      "length": 19,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
-      "kind": "StringLiteral",
-      "offset": 10788,
-      "length": 9,
-      "value": "\"strings\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
-      "kind": "StringLiteral",
-      "offset": 11282,
-      "length": 32,
-      "value": "\"root_view_controller_not_found\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
-      "kind": "Dictionary",
-      "offset": 11328,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11517,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13217,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13271,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
-      "kind": "StringLiteral",
-      "offset": 13422,
-      "length": 30,
-      "value": "\"appId      = \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
-      "kind": "StringLiteral",
-      "offset": 13449,
-      "length": 1,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
-      "kind": "StringLiteral",
-      "offset": 13463,
-      "length": 35,
-      "value": "\"expiryDate = \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
-      "kind": "StringLiteral",
-      "offset": 13495,
-      "length": 1,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
-      "kind": "StringLiteral",
-      "offset": 13509,
-      "length": 28,
-      "value": "\"key        = \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
-      "kind": "StringLiteral",
-      "offset": 13534,
-      "length": 1,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
-      "kind": "StringLiteral",
-      "offset": 13726,
-      "length": 36,
-      "value": "\"Vove SDK Initialized successfully!\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
-      "kind": "StringLiteral",
-      "offset": 13807,
-      "length": 90,
-      "value": "\"Vove SDK Initialization failed. \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
-      "kind": "StringLiteral",
-      "offset": 13896,
+      "offset": 13560,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "StringLiteral",
-      "offset": 13961,
+      "offset": 13655,
+      "length": 56,
+      "value": "\"Initializing Vove SDK with environment: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "StringLiteral",
+      "offset": 13710,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "StringLiteral",
+      "offset": 14107,
+      "length": 15,
+      "value": "\"Vove-\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "StringLiteral",
+      "offset": 14121,
+      "length": 19,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "StringLiteral",
+      "offset": 14139,
+      "length": 9,
+      "value": "\"strings\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "StringLiteral",
+      "offset": 14633,
+      "length": 32,
+      "value": "\"root_view_controller_not_found\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "Dictionary",
+      "offset": 14679,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14868,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16568,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16622,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "StringLiteral",
+      "offset": 16773,
+      "length": 30,
+      "value": "\"appId      = \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "StringLiteral",
+      "offset": 16800,
+      "length": 1,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "StringLiteral",
+      "offset": 16814,
+      "length": 35,
+      "value": "\"expiryDate = \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "StringLiteral",
+      "offset": 16846,
+      "length": 1,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "StringLiteral",
+      "offset": 16860,
+      "length": 28,
+      "value": "\"key        = \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "StringLiteral",
+      "offset": 16885,
+      "length": 1,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "StringLiteral",
+      "offset": 17077,
+      "length": 36,
+      "value": "\"Vove SDK Initialized successfully!\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "StringLiteral",
+      "offset": 17158,
+      "length": 90,
+      "value": "\"Vove SDK Initialization failed. \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "StringLiteral",
+      "offset": 17247,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
+      "kind": "StringLiteral",
+      "offset": 17312,
       "length": 35,
       "value": "\"FaceTec_sdk_initialization_failed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Vove.swift",
       "kind": "Dictionary",
-      "offset": 14010,
+      "offset": 17361,
       "length": 3,
       "value": "[]"
     },
@@ -13374,287 +14109,308 @@
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 860,
+      "offset": 645,
       "length": 39,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 879,
+      "offset": 664,
       "length": 1,
       "value": "\"\/v2\/sessions\/latest\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 974,
+      "offset": 759,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 1032,
+      "offset": 817,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 1130,
+      "offset": 915,
       "length": 12,
       "value": "\"User-Agent\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 1338,
+      "offset": 1123,
       "length": 21,
       "value": "\"fetch_session_error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 1374,
+      "offset": 1159,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 1597,
+      "offset": 1382,
       "length": 23,
       "value": "\"fetch_session_no_data\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "Dictionary",
-      "offset": 1634,
+      "offset": 1419,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 1691,
+      "offset": 1476,
       "length": 15,
       "value": "\"ServiceClient\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1714,
+      "offset": 1499,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 1755,
+      "offset": 1540,
       "length": 19,
       "value": "\"No data received.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 2046,
+      "offset": 1831,
       "length": 25,
       "value": "\"fetch_session_exception\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 2086,
+      "offset": 1871,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 2678,
+      "offset": 2222,
+      "length": 78,
+      "value": "\"fetching organization with public key: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2274,
+      "length": 3,
+      "value": "\" and base url: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2299,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2333,
       "length": 60,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 2697,
+      "offset": 2352,
       "length": 1,
       "value": "\"\/sdk?platform=ios&publicKey=\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 2737,
+      "offset": 2392,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 2822,
+      "offset": 2477,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 2910,
+      "offset": 2565,
       "length": 12,
       "value": "\"User-Agent\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 3109,
+      "offset": 2764,
       "length": 17,
       "value": "\"fetch_org_error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 3141,
+      "offset": 2796,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 3364,
+      "offset": 3019,
       "length": 19,
       "value": "\"fetch_org_no_data\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "Dictionary",
-      "offset": 3397,
+      "offset": 3052,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 3454,
+      "offset": 3109,
       "length": 15,
       "value": "\"ServiceClient\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 3477,
+      "offset": 3132,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 3518,
+      "offset": 3173,
       "length": 19,
       "value": "\"No data received.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 3824,
+      "offset": 3479,
       "length": 21,
       "value": "\"fetch_org_exception\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 3860,
+      "offset": 3515,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/controllers\/MainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1409,
+      "offset": 1411,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/controllers\/MainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1943,
+      "offset": 1945,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/controllers\/MainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2154,
+      "offset": 2156,
       "length": 24,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/controllers\/MainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2177,
+      "offset": 2179,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/controllers\/MainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3092,
+      "offset": 3094,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/controllers\/MainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3260,
+      "offset": 3262,
       "length": 24,
       "value": "\"main_vc_session_failed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/controllers\/MainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3299,
+      "offset": 3301,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/controllers\/MainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3363,
+      "offset": 3365,
       "length": 55,
       "value": "\"error fetching session: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/controllers\/MainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3417,
+      "offset": 3419,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/controllers\/MainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3897,
+      "offset": 3899,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/controllers\/MainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5111,
+      "offset": 5113,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/controllers\/MainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5645,
+      "offset": 5647,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/controllers\/MainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1085,
+      "offset": 1086,
       "length": 18,
       "value": "\"VoveSDK.MainViewController\""
     },

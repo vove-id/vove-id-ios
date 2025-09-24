@@ -34,47 +34,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mZKjKah3mlzDuIpSWQNfm0xzbQg=
+		cCHq2oetYEg6ROpzHS/pTqVNKf8=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		L35ghmaKUIztyr0ij2tjomvgX4U=
+		QwmjR6wdOWkTEIPIQGtfCSTSHJg=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		e4hwVc50gkpxYJja6x/9ygSUDbo=
+		YIJrV/qzNRE6CRDeodhqvmyZs9E=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		xfpPUnGQVOUYr1WkZFDIhLxBSNs=
+		THJyWAHHrvYvMMZoKUfz7nlnJrc=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		e4hwVc50gkpxYJja6x/9ygSUDbo=
+		OMa28Ru7mUYCAePQVE6jKq/FEqY=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rkRRxyrQSpy0TCTiCdSpqCk+JhI=
+		Ll5laBudfy8VWaZzAiRyinoGxDA=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		L35ghmaKUIztyr0ij2tjomvgX4U=
+		QwmjR6wdOWkTEIPIQGtfCSTSHJg=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hKZ9HwNszfn/Epi4mhhpMQWbYm8=
+		jmtX6/ZWIv6DxXKapIRfE69zgr8=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		uBb9PPFqKZp/TkzAyYBb1tfU0zs=
+		z1j9315x9oClL5AwJJ0b5KBSmEM=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hKZ9HwNszfn/Epi4mhhpMQWbYm8=
+		WrhHLyqr087EVNiUszkY1A/a4i0=
 		</data>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		O+7rwagv1I8fSA05gla89yP0pPI=
+		DdKXucFSfh7hKrVwvYNxG7/snPI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -301,70 +301,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fRgdO2U/qJH7AnbIkqRE5qwN2FKiHuuhMPrT+03wXNQ=
+			nPvnBGnCgaViu99Zhr3bZVVXEfKUCjCcKNzf953aNqI=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Fd8aOVSJZcPUpSyUl75VhCodqUE2rHd1LqilH62Q1Y=
+			MAeXiKIazGrjLucbvwvDxM3dS9p/qi9o3tn+I0eaIJE=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k1gI8IxFzBHN9pKVtlvOdPZlU8bL4DrnRJULMIkd97Q=
+			yhLUm1z5L5NpdtDL33RDRTPJhrquhab6yq4TvSqWygE=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Fd8aOVSJZcPUpSyUl75VhCodqUE2rHd1LqilH62Q1Y=
+			mwcg5A6J5oxFMb3HoWzaRPqZl6j4cqnpW4cwEt9o0vM=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aeDh5qP+OX3YawXUmTD3m3T53tTB1LcN8xSUeoDpjNo=
+			LM/6Afmh7Ey1lYHtPUaE2ZkfNo0GA3C1VHZQaK9zLdE=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fRgdO2U/qJH7AnbIkqRE5qwN2FKiHuuhMPrT+03wXNQ=
+			nPvnBGnCgaViu99Zhr3bZVVXEfKUCjCcKNzf953aNqI=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RVNWdh+8utKvTILWLSHt2YD8G9/GI873TODvJWAdZTg=
+			oe3bIzAnb/Di0HOIQ0VsiEWLdIkKvNsbmMqHKX9gfHY=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+X3uqNocbBteatotJ/kTW3LWYhtdYMzXW/j90LsnuXE=
+			wwAvFMBO2FUtq066BO/xLw4M6191OOPimsUl8yHFrSI=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RVNWdh+8utKvTILWLSHt2YD8G9/GI873TODvJWAdZTg=
+			cxFjuUp0yz2srs8hDj/P981d7Rp1mkATTAxY1L3vnr4=
 			</data>
 		</dict>
 		<key>Modules/VoveSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			69WUpniAM6VbAowwsZH9tp6IfdL/yrWXpFjrVUigLRE=
+			NO/4snnQ7lUSKnTyqIws0Ry9zq3aqDPH8PLte/3A9UM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

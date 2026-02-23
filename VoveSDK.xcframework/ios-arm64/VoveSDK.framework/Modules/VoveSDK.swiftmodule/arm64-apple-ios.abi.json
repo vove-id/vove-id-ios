@@ -703,6 +703,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -5154,6 +5164,23 @@
       },
       {
         "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "VoveSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoveSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5535,77 +5562,91 @@
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1183,
+      "offset": 1120,
+      "length": 20,
+      "value": "\"gateway.voveid.com\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 1182,
+      "length": 17,
+      "value": "\"136.110.165.223\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 1301,
       "length": 16,
       "value": "\"api.voveid.org\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1225,
+      "offset": 1343,
       "length": 21,
       "value": "\"beta-api.voveid.org\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2784,
+      "offset": 3521,
       "length": 30,
       "value": "\"-----BEGIN PUBLIC KEY-----\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2825,
+      "offset": 3562,
       "length": 68,
       "value": "\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5PxZ3DLj+zP6T6HFgzzk\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2904,
+      "offset": 3641,
       "length": 68,
       "value": "\"M77LdzP3fojBoLasw7EfzvLMnJNUlyRb5m8e5QyyJxI+wRjsALHvFgLzGwxM8ehz\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2983,
+      "offset": 3720,
       "length": 68,
       "value": "\"DqqBZed+f4w33GgQXFZOS4AOvyPbALgCYoLehigLAbbCNTkeY5RDcmmSI\/sbp+s6\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 3062,
+      "offset": 3799,
       "length": 68,
       "value": "\"mAiAKKvCdIqe17bltZ\/rfEoL3gPKEfLXeN549LTj3XBp0hvG4loQ6eC1E1tRzSkf\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 3141,
+      "offset": 3878,
       "length": 68,
       "value": "\"GJD4GIVvR+j12gXAaftj3ahfYxioBH7F7HQxzmWkwDyn3bqU54eaiB7f0ftsPpWM\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 3220,
+      "offset": 3957,
       "length": 68,
       "value": "\"ceUaqkL2DZUvgN0efEJjnWy5y1\/Gkq5GGWCROI9XG\/SwXJ30BbVUehTbVcD70+ZF\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 3299,
+      "offset": 4036,
       "length": 12,
       "value": "\"8QIDAQAB\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 3322,
+      "offset": 4059,
       "length": 26,
       "value": "\"-----END PUBLIC KEY-----\""
     },
@@ -5622,6 +5663,664 @@
       "offset": 586,
       "length": 9,
       "value": "\"Summary\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 16,
+      "value": "\"sdk.init.start\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 342,
+      "length": 19,
+      "value": "\"sdk.init.complete\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 25,
+      "value": "\"sdk.init.fail.jwtDecode\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 451,
+      "length": 24,
+      "value": "\"sdk.init.fail.fetchOrg\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 28,
+      "value": "\"sdk.init.fail.fetchSession\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 570,
+      "length": 23,
+      "value": "\"sdk.init.fail.facetec\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 650,
+      "length": 25,
+      "value": "\"sdk.api.session.request\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 713,
+      "length": 34,
+      "value": "\"sdk.api.session.response.success\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 782,
+      "length": 31,
+      "value": "\"sdk.api.session.response.fail\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 850,
+      "length": 33,
+      "value": "\"sdk.api.session.response.noData\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 21,
+      "value": "\"sdk.api.org.request\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 964,
+      "length": 30,
+      "value": "\"sdk.api.org.response.success\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 1025,
+      "length": 27,
+      "value": "\"sdk.api.org.response.fail\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 1085,
+      "length": 29,
+      "value": "\"sdk.api.org.response.noData\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 1178,
+      "length": 24,
+      "value": "\"sdk.verification.start\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 1235,
+      "length": 27,
+      "value": "\"sdk.verification.complete\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 1293,
+      "length": 25,
+      "value": "\"sdk.verification.cancel\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 1352,
+      "length": 29,
+      "value": "\"sdk.verification.step.enter\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 1417,
+      "length": 30,
+      "value": "\"sdk.verification.maxAttempts\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 1499,
+      "length": 21,
+      "value": "\"sdk.scan.face.start\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 1548,
+      "length": 23,
+      "value": "\"sdk.scan.face.process\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 1600,
+      "length": 24,
+      "value": "\"sdk.scan.face.complete\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 1649,
+      "length": 20,
+      "value": "\"sdk.scan.face.fail\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 1696,
+      "length": 22,
+      "value": "\"sdk.scan.face.cancel\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 1747,
+      "length": 24,
+      "value": "\"sdk.scan.face.response\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 1831,
+      "length": 25,
+      "value": "\"sdk.scan.document.start\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 1888,
+      "length": 27,
+      "value": "\"sdk.scan.document.process\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 1948,
+      "length": 28,
+      "value": "\"sdk.scan.document.complete\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 2005,
+      "length": 24,
+      "value": "\"sdk.scan.document.fail\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 2060,
+      "length": 26,
+      "value": "\"sdk.scan.document.cancel\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 2116,
+      "length": 25,
+      "value": "\"sdk.scan.document.retry\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 2200,
+      "length": 24,
+      "value": "\"sdk.scan.address.start\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 2261,
+      "length": 33,
+      "value": "\"sdk.scan.address.upload.success\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 2328,
+      "length": 30,
+      "value": "\"sdk.scan.address.upload.fail\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 2390,
+      "length": 27,
+      "value": "\"sdk.scan.address.complete\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 2447,
+      "length": 25,
+      "value": "\"sdk.scan.address.cancel\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 2534,
+      "length": 24,
+      "value": "\"sdk.snap.session.start\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 2590,
+      "length": 27,
+      "value": "\"sdk.snap.session.complete\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 2646,
+      "length": 24,
+      "value": "\"sdk.snap.capture.start\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 2709,
+      "length": 35,
+      "value": "\"sdk.snap.camera.permission.needed\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 2784,
+      "length": 36,
+      "value": "\"sdk.snap.camera.permission.granted\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 2859,
+      "length": 35,
+      "value": "\"sdk.snap.camera.permission.denied\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 2935,
+      "length": 37,
+      "value": "\"sdk.snap.camera.permission.settings\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 3004,
+      "length": 28,
+      "value": "\"sdk.snap.file.select.start\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 3067,
+      "length": 31,
+      "value": "\"sdk.snap.file.select.complete\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 3126,
+      "length": 23,
+      "value": "\"sdk.snap.upload.start\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 3180,
+      "length": 26,
+      "value": "\"sdk.snap.upload.progress\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 3237,
+      "length": 26,
+      "value": "\"sdk.snap.upload.complete\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 3290,
+      "length": 22,
+      "value": "\"sdk.snap.upload.fail\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 3341,
+      "length": 24,
+      "value": "\"sdk.snap.document.scan\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 3394,
+      "length": 24,
+      "value": "\"sdk.snap.image.capture\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 3446,
+      "length": 23,
+      "value": "\"sdk.snap.image.retake\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 3498,
+      "length": 24,
+      "value": "\"sdk.snap.image.confirm\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 3552,
+      "length": 25,
+      "value": "\"sdk.snap.image.optimize\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 3611,
+      "length": 30,
+      "value": "\"sdk.snap.scan.front.complete\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 3674,
+      "length": 29,
+      "value": "\"sdk.snap.scan.back.complete\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 3755,
+      "length": 20,
+      "value": "\"sdk.processor.init\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 3808,
+      "length": 28,
+      "value": "\"sdk.processor.request.send\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 3873,
+      "length": 32,
+      "value": "\"sdk.processor.response.receive\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 3944,
+      "length": 34,
+      "value": "\"sdk.processor.response.parseFail\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 4017,
+      "length": 34,
+      "value": "\"sdk.processor.response.jsonError\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 4084,
+      "length": 28,
+      "value": "\"sdk.processor.network.fail\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 4141,
+      "length": 23,
+      "value": "\"sdk.processor.noToken\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 4202,
+      "length": 33,
+      "value": "\"sdk.processor.retry.maxAttempts\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 4269,
+      "length": 28,
+      "value": "\"sdk.processor.handleStatus\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 4331,
+      "length": 28,
+      "value": "\"sdk.processor.handleResult\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 4416,
+      "length": 28,
+      "value": "\"sdk.network.fallback.error\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 4479,
+      "length": 30,
+      "value": "\"sdk.network.fallback.success\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 4552,
+      "length": 16,
+      "value": "\"sdk.flow.retry\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 4596,
+      "length": 23,
+      "value": "\"sdk.flow.session.fail\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 4651,
+      "length": 27,
+      "value": "\"sdk.liveness.retry.reason\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 4720,
+      "length": 18,
+      "value": "\"sdk.ui.view.load\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 4764,
+      "length": 21,
+      "value": "\"sdk.ui.session.fail\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 4810,
+      "length": 19,
+      "value": "\"sdk.ui.vcNotFound\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 4892,
+      "length": 32,
+      "value": "\"sdk.util.localization.readFail\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 4961,
+      "length": 32,
+      "value": "\"sdk.util.localization.loadFail\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 5032,
+      "length": 34,
+      "value": "\"sdk.util.localization.updateFail\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 5102,
+      "length": 31,
+      "value": "\"sdk.util.imageHider.watermark\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 5166,
+      "length": 28,
+      "value": "\"sdk.util.session.fetchFail\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 5223,
+      "length": 24,
+      "value": "\"sdk.util.org.fetchFail\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 5352,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 5380,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 5406,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 5431,
+      "length": 6,
+      "value": "\"step\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 5466,
+      "length": 18,
+      "value": "\"verificationStep\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 5515,
+      "length": 20,
+      "value": "\"verificationStatus\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 5566,
+      "length": 20,
+      "value": "\"verificationReason\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 5608,
+      "length": 11,
+      "value": "\"sessionId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 5640,
+      "length": 10,
+      "value": "\"viewName\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 5667,
+      "length": 6,
+      "value": "\"path\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 5693,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 5726,
+      "length": 13,
+      "value": "\"retryReason\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 5756,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/services\/AnalyticsEvents.swift",
+      "kind": "Dictionary",
+      "offset": 5927,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/vove-ios-sdk\/vove-ios-sdk\/src\/VoveSDK\/viewModels\/OnboardingViewModel.swift",
